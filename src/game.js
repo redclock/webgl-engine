@@ -592,15 +592,15 @@ define(
                 var rt3 = game.rtHeight3;
                 var rtNormal = game.rtNormal;
 
-                //rt3.bind();
-                //SimpleDraw.drawTexture(rt2.texture, 0, 0, rt3.width, rt3.height);
-                //rt3.unbind();
+                rt3.bind();
+                SimpleDraw.drawTexture(rt2.texture, 0, 0, rt3.width, rt3.height);
+                rt3.unbind();
 
                 rt2.bind();
                 game.shaderWave.appear();
                 gl.uniform2f(game.shaderWave.unifOffset, 0.3 / rt1.width, 0.3 / rt1.height);
                 gl.uniform1i(game.shaderWave.unifMap2, 1);
-                rt2.texture.appear(1);
+                rt3.texture.appear(1);
                 SimpleDraw.drawTextureWithShader(rt1.texture, 0, 0, rt2.width, rt2.height, game.shaderWave);
 
                 if (first && game.textureSpot.loaded)
@@ -615,7 +615,7 @@ define(
                         x = (game.balls[i].transform.pos[0] + 15) / 30 * rt2.width;
                         y = (-game.balls[i].transform.pos[2] + 15) / 30 * rt2.height;
 
-                        //SimpleDraw.drawTexture(game.textureSpot, x - 4, y - 4, 8, 8, [0.0, 0.0, 0.0, 1], [0, 0, 0, 0]);
+                        SimpleDraw.drawTexture(game.textureSpot, x - 4, y - 4, 8, 8, [0.0, 0.0, 0.0, 1], [0, 0, 0, 0]);
                     }
                     gl.disable(gl.BLEND);
                     //first = false;
