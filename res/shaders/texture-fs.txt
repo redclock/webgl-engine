@@ -1,0 +1,10 @@
+uniform sampler2D DiffuseMap;
+uniform lowp vec4 diffuseColor;
+uniform lowp vec4 emissiveColor;
+
+varying mediump vec2 vTexcoord;
+void main(void)
+{
+    gl_FragColor =  texture2D(DiffuseMap, vTexcoord) * diffuseColor;
+    gl_FragColor += emissiveColor;
+}

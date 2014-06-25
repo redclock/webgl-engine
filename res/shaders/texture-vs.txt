@@ -1,0 +1,13 @@
+attribute highp vec3 aPosition;
+attribute mediump vec2 aTexcoord;
+
+uniform highp mat4 matVP;
+
+varying mediump vec2 vTexcoord;
+
+void main(void)
+{
+    gl_Position = matVP * vec4(aPosition, 1.0);
+    vTexcoord.x = aTexcoord.x;
+    vTexcoord.y = 1.0 - aTexcoord.y;
+}

@@ -1,0 +1,47 @@
+const float C1 = 0.429043;
+const float C2 = 0.511664;
+const float C3 = 0.743125;
+const float C4 = 0.886227;
+const float C5 = 0.247708;
+
+// Constants for Old Town Square lighting
+/*
+const vec3 L00  = vec3( 0.871297,  0.875222,  0.864470);
+const vec3 L1m1 = vec3( 0.175058,  0.245335,  0.312891);
+const vec3 L10  = vec3( 0.034675,  0.036107,  0.037362);
+const vec3 L11  = vec3(-0.004629, -0.029448, -0.048028);
+const vec3 L2m2 = vec3(-0.120535, -0.121160, -0.117507);
+const vec3 L2m1 = vec3( 0.003242,  0.003624,  0.007511);
+const vec3 L20  = vec3(-0.028667, -0.024926, -0.020998);
+const vec3 L21  = vec3(-0.077539, -0.086325, -0.091591);
+const vec3 L22  = vec3(-0.161784, -0.191783, -0.219152);
+*/
+const vec3 L00  = vec3( 1.716295,  1.739134,  1.775244);
+const vec3 L1m1 = vec3(-0.790045, -0.921563, -1.101631);
+const vec3 L10  = vec3(-0.434519, -0.431402, -0.410292);
+const vec3 L11  = vec3(-1.128033, -1.042743, -0.857562);
+const vec3 L2m2 = vec3( 0.414157,  0.418393,  0.375764);
+const vec3 L2m1 = vec3( 0.212015,  0.237770,  0.259010);
+const vec3 L20  = vec3(-0.080432, -0.054213, -0.038012);
+const vec3 L21  = vec3( 0.410096,  0.343932,  0.251869);
+const vec3 L22  = vec3( 0.933710,  0.784420,  0.517232);
+
+vec3 getSHLight(vec3 normal)
+{
+    vec3 DiffuseColor = C1 * L22 * (normal.x * normal.x - normal.y * normal.y) +
+                    C3 * L20 * normal.z * normal.z +
+                    C4 * L00 -
+                    C5 * L20 +
+                    2.0 * C1 * L2m2 * normal.x * normal.y +
+                    2.0 * C1 * L21  * normal.x * normal.z +
+                    2.0 * C1 * L2m1 * normal.y * normal.z +
+                    2.0 * C2 * L11  * normal.x +
+                    2.0 * C2 * L1m1 * normal.y +
+                    2.0 * C2 * L10  * normal.z;
+    return DiffuseColor * 0.7;
+}
+
+vec3 getLight(vec3 normal)
+{
+    return getSHLight(vec3(normal.z, -normal.y, normal.x));
+}

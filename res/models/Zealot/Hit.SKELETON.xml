@@ -1,0 +1,3215 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="Bip01">
+            <position x="7.27596e-010" y="-3.42261e-009" z="1.50721" />
+            <rotation angle="1.59978">
+                <axis x="0.00140016" y="0.0978809" z="-0.995197" />
+            </rotation>
+        </bone>
+        <bone id="1" name="Bip01 Hair">
+            <position x="0.131903" y="-0.08895" z="-2.19345e-005" />
+            <rotation angle="3.0591">
+                <axis x="0.0489499" y="-0.06397" z="-0.996751" />
+            </rotation>
+        </bone>
+        <bone id="2" name="Bip01 Hair02">
+            <position x="0.212621" y="-0.000224304" z="1.05023e-005" />
+            <rotation angle="0.317276">
+                <axis x="-0.0901434" y="0.353261" z="-0.931172" />
+            </rotation>
+        </bone>
+        <bone id="3" name="Bip01 Hair03">
+            <position x="0.294448" y="-0.00023613" z="9.44138e-006" />
+            <rotation angle="0.275544">
+                <axis x="-0.0778713" y="0.579748" z="-0.811066" />
+            </rotation>
+        </bone>
+        <bone id="4" name="Bip01 Hair04">
+            <position x="0.304263" y="-0.000184226" z="1.39236e-005" />
+            <rotation angle="0.254081">
+                <axis x="-0.2705" y="-0.16779" z="0.947985" />
+            </rotation>
+        </bone>
+        <bone id="5" name="Bip01 Hair05">
+            <position x="0.238729" y="-0.000297642" z="-3.55244e-005" />
+            <rotation angle="0.286639">
+                <axis x="0.354764" y="-0.749953" z="-0.558312" />
+            </rotation>
+        </bone>
+        <bone id="6" name="Bip01 Head">
+            <position x="0.171109" y="-0.0184668" z="-1.78814e-008" />
+            <rotation angle="0.159974">
+                <axis x="-0.31639" y="0.819874" z="0.477184" />
+            </rotation>
+        </bone>
+        <bone id="7" name="Bip01 L Calf">
+            <position x="0.691121" y="-1.19209e-008" z="4.76837e-008" />
+            <rotation angle="0.156761">
+                <axis x="1.78963e-008" y="3.81789e-007" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="8" name="Bip01 L Clavicle">
+            <position x="-0.110073" y="0.00618048" z="0.0463717" />
+            <rotation angle="3.15715">
+                <axis x="-0.554617" y="0.265376" z="-0.788654" />
+            </rotation>
+        </bone>
+        <bone id="9" name="Bip01 L Finger0">
+            <position x="0.0799589" y="0.0255828" z="-0.0733044" />
+            <rotation angle="1.91901">
+                <axis x="0.619764" y="0.742757" z="-0.253387" />
+            </rotation>
+        </bone>
+        <bone id="10" name="Bip01 L Finger01">
+            <position x="0.110764" y="-2.38419e-008" z="9.53674e-008" />
+            <rotation angle="1.26417">
+                <axis x="-3.90755e-009" y="-2.73529e-008" z="1" />
+            </rotation>
+        </bone>
+        <bone id="11" name="Bip01 L Finger1">
+            <position x="0.169848" y="-0.00512977" z="-0.0630991" />
+            <rotation angle="0.5646">
+                <axis x="0.00596305" y="0.579713" z="-0.814799" />
+            </rotation>
+        </bone>
+        <bone id="12" name="Bip01 L Finger11">
+            <position x="0.118623" y="-9.53674e-008" z="0" />
+            <rotation angle="0.91487">
+                <axis x="9.66598e-008" y="4.48302e-015" z="1" />
+            </rotation>
+        </bone>
+        <bone id="13" name="Bip01 L Finger2">
+            <position x="0.174686" y="-0.00573225" z="-4.23431e-005" />
+            <rotation angle="0.132375">
+                <axis x="0.0303336" y="-0.181215" z="-0.982976" />
+            </rotation>
+        </bone>
+        <bone id="14" name="Bip01 L Finger21">
+            <position x="0.105933" y="-4.76837e-008" z="-1.90735e-007" />
+            <rotation angle="0.727117">
+                <axis x="-0" y="-2.24173e-008" z="1" />
+            </rotation>
+        </bone>
+        <bone id="15" name="Bip01 L Finger3">
+            <position x="0.169859" y="0.0210209" z="0.0484543" />
+            <rotation angle="0.622989">
+                <axis x="-0.52037" y="-0.837587" z="0.16632" />
+            </rotation>
+        </bone>
+        <bone id="16" name="Bip01 L Finger31">
+            <position x="0.0990535" y="-9.53674e-008" z="0" />
+            <rotation angle="0.799019">
+                <axis x="4.15843e-008" y="-2.20917e-008" z="1" />
+            </rotation>
+        </bone>
+        <bone id="17" name="Bip01 L Foot">
+            <position x="0.708558" y="1.19209e-008" z="1.43051e-007" />
+            <rotation angle="0.635873">
+                <axis x="-0.637212" y="-0.754961" z="0.154902" />
+            </rotation>
+        </bone>
+        <bone id="18" name="Bip01 L Forearm">
+            <position x="0.344458" y="2.38419e-008" z="0" />
+            <rotation angle="1.90562">
+                <axis x="-9.86081e-009" y="-1.97215e-009" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="19" name="Bip01 L Hand">
+            <position x="0.300772" y="9.53674e-008" z="-9.53674e-008" />
+            <rotation angle="2.39336">
+                <axis x="-0.980135" y="0.196629" z="0.0259469" />
+            </rotation>
+        </bone>
+        <bone id="20" name="Bip01 L Thigh">
+            <position x="-0.0361756" y="-0.0221011" z="0.166801" />
+            <rotation angle="2.37256">
+                <axis x="0.0269056" y="-0.935024" z="0.353561" />
+            </rotation>
+        </bone>
+        <bone id="21" name="Bip01 L Toe0">
+            <position x="0.24356" y="0.287324" z="0" />
+            <rotation angle="1.5708">
+                <axis x="-2.27943e-006" y="2.38417e-007" z="1" />
+            </rotation>
+        </bone>
+        <bone id="22" name="Bip01 L UpperArm">
+            <position x="0.149861" y="5.96046e-009" z="0" />
+            <rotation angle="1.21276">
+                <axis x="-0.318707" y="0.797636" z="0.512057" />
+            </rotation>
+        </bone>
+        <bone id="23" name="Bip01 Left Ear Hair">
+            <position x="0.154264" y="0.0662081" z="0.121287" />
+            <rotation angle="3.57064">
+                <axis x="0.0270443" y="-0.0211362" z="-0.999411" />
+            </rotation>
+        </bone>
+        <bone id="24" name="Bip01 Left Ear Hair02">
+            <position x="0.226403" y="-0.000123274" z="-5.29289e-006" />
+            <rotation angle="0.276398">
+                <axis x="0.15856" y="0.987347" z="-0.00232577" />
+            </rotation>
+        </bone>
+        <bone id="25" name="Bip01 Neck">
+            <position x="0.325286" y="-0.0959682" z="3.91126e-005" />
+            <rotation angle="0.510439">
+                <axis x="-0.646961" y="0.287409" z="0.706284" />
+            </rotation>
+        </bone>
+        <bone id="26" name="Bip01 Pelvis">
+            <position x="0" y="0" z="0" />
+            <rotation angle="2.10854">
+                <axis x="-0.581989" y="-0.58199" z="-0.567958" />
+            </rotation>
+        </bone>
+        <bone id="27" name="Bip01 R Calf">
+            <position x="0.691121" y="2.08616e-008" z="0" />
+            <rotation angle="0.477778">
+                <axis x="1.13932e-007" y="-6.48148e-008" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="28" name="Bip01 R Clavicle">
+            <position x="-0.0848335" y="0.0430497" z="-0.0725571" />
+            <rotation angle="3.14827">
+                <axis x="0.531819" y="-0.330836" z="-0.779561" />
+            </rotation>
+        </bone>
+        <bone id="29" name="Bip01 R Finger0">
+            <position x="0.0799588" y="0.0255827" z="0.0733043" />
+            <rotation angle="2.43584">
+                <axis x="-0.780372" y="-0.544509" z="0.307458" />
+            </rotation>
+        </bone>
+        <bone id="30" name="Bip01 R Finger01">
+            <position x="0.110763" y="4.76837e-008" z="0" />
+            <rotation angle="1.07194">
+                <axis x="1.69692e-008" y="8.48462e-009" z="1" />
+            </rotation>
+        </bone>
+        <bone id="31" name="Bip01 R Finger1">
+            <position x="0.169848" y="-0.00512981" z="0.0630989" />
+            <rotation angle="1.18762">
+                <axis x="-0.220437" y="0.0350006" z="0.974773" />
+            </rotation>
+        </bone>
+        <bone id="32" name="Bip01 R Finger11">
+            <position x="0.118623" y="9.53674e-008" z="-9.53674e-008" />
+            <rotation angle="1.59367">
+                <axis x="-4.47152e-008" y="-0" z="1" />
+            </rotation>
+        </bone>
+        <bone id="33" name="Bip01 R Finger2">
+            <position x="0.174686" y="-0.00573235" z="4.22478e-005" />
+            <rotation angle="1.08295">
+                <axis x="0.0100549" y="0.0213268" z="0.999722" />
+            </rotation>
+        </bone>
+        <bone id="34" name="Bip01 R Finger21">
+            <position x="0.105933" y="0" z="-9.53674e-008" />
+            <rotation angle="1.5064">
+                <axis x="-7.46606e-008" y="-4.47963e-008" z="1" />
+            </rotation>
+        </bone>
+        <bone id="35" name="Bip01 R Finger3">
+            <position x="0.169858" y="0.0210208" z="-0.0484544" />
+            <rotation angle="1.4024">
+                <axis x="0.138602" y="-0.00231919" z="0.990345" />
+            </rotation>
+        </bone>
+        <bone id="36" name="Bip01 R Finger31">
+            <position x="0.0990536" y="-9.53674e-008" z="0" />
+            <rotation angle="1.41913">
+                <axis x="-6.02968e-008" y="3.01484e-008" z="1" />
+            </rotation>
+        </bone>
+        <bone id="37" name="Bip01 R Foot">
+            <position x="0.708557" y="-2.38419e-008" z="-4.76837e-008" />
+            <rotation angle="0.54857">
+                <axis x="0.107015" y="0.347161" z="0.93168" />
+            </rotation>
+        </bone>
+        <bone id="38" name="Bip01 R Forearm">
+            <position x="0.344459" y="0" z="-9.53674e-008" />
+            <rotation angle="0.00436732">
+                <axis x="-7.44053e-006" y="-1.36055e-005" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="39" name="Bip01 R Hand">
+            <position x="0.300772" y="0" z="0" />
+            <rotation angle="1.61231">
+                <axis x="0.892294" y="0.250435" z="0.375623" />
+            </rotation>
+        </bone>
+        <bone id="40" name="Bip01 R Thigh">
+            <position x="-0.0893198" y="-0.124681" z="-0.0703181" />
+            <rotation angle="2.95546">
+                <axis x="0.145978" y="-0.904165" z="0.401468" />
+            </rotation>
+        </bone>
+        <bone id="41" name="Bip01 R Toe0">
+            <position x="0.24356" y="0.287324" z="-7.15256e-008" />
+            <rotation angle="1.57033">
+                <axis x="9.90094e-006" y="-8.53763e-005" z="1" />
+            </rotation>
+        </bone>
+        <bone id="42" name="Bip01 R UpperArm">
+            <position x="0.149861" y="-1.19209e-008" z="-1.90735e-007" />
+            <rotation angle="0.853218">
+                <axis x="-0.0184307" y="-0.981636" z="0.189869" />
+            </rotation>
+        </bone>
+        <bone id="43" name="Bip01 Right Ear Hair">
+            <position x="0.154324" y="0.0668637" z="-0.121298" />
+            <rotation angle="3.1998">
+                <axis x="-0.183945" y="-0.982878" z="-0.0107151" />
+            </rotation>
+        </bone>
+        <bone id="44" name="Bip01 Right Ear Hair02">
+            <position x="0.230705" y="-0.000115722" z="1.54078e-006" />
+            <rotation angle="0.397438">
+                <axis x="-0.125713" y="0.815844" z="0.564442" />
+            </rotation>
+        </bone>
+        <bone id="45" name="Bip01 Spine">
+            <position x="0.0856316" y="0.0656754" z="-0.00218334" />
+            <rotation angle="0.509121">
+                <axis x="0.739201" y="-0.500134" z="-0.451052" />
+            </rotation>
+        </bone>
+        <bone id="46" name="Bip01 Spine1">
+            <position x="0.29748" y="-0.000276458" z="-4.04358e-005" />
+            <rotation angle="0.297542">
+                <axis x="0.482549" y="0.870883" z="0.0933203" />
+            </rotation>
+        </bone>
+        <bone id="47" name="Bip01 Tail">
+            <position x="0.120702" y="-0.13856" z="0.0307968" />
+            <rotation angle="2.52047">
+                <axis x="-0.177022" y="-0.158898" z="-0.971295" />
+            </rotation>
+        </bone>
+        <bone id="48" name="Bip01 Tail1">
+            <position x="0.385209" y="-0.0004776" z="6.42538e-006" />
+            <rotation angle="0.271037">
+                <axis x="0.0170096" y="-0.775255" z="0.631419" />
+            </rotation>
+        </bone>
+        <bone id="49" name="Bip01 Tail2">
+            <position x="0.608632" y="-0.000431442" z="2.87712e-005" />
+            <rotation angle="0.37072">
+                <axis x="-0.0854244" y="-0.714927" z="0.693961" />
+            </rotation>
+        </bone>
+        <bone id="50" name="Bip01 Tail3">
+            <position x="0.560478" y="-0.000206089" z="1.18852e-005" />
+            <rotation angle="0.353272">
+                <axis x="-0.0722208" y="-0.694996" z="0.715378" />
+            </rotation>
+        </bone>
+        <bone id="51" name="Bip01 Tail4">
+            <position x="0.267454" y="-0.000254822" z="-7.59363e-006" />
+            <rotation angle="0.383437">
+                <axis x="0.138202" y="-0.362242" z="0.921781" />
+            </rotation>
+        </bone>
+        <bone id="52" name="root">
+            <position x="-7.27596e-010" y="0.000284433" z="-3.42261e-009" />
+            <rotation angle="1.5708">
+                <axis x="-1" y="-0" z="-0" />
+            </rotation>
+        </bone>
+        <bone id="53" name="tag_leftarm">
+            <position x="0.149997" y="0.0128893" z="0.0849128" />
+            <rotation angle="3.07795">
+                <axis x="0.673072" y="-0.0781741" z="-0.735434" />
+            </rotation>
+        </bone>
+        <bone id="54" name="tag_lefthand">
+            <position x="0.171373" y="0.0576672" z="-0.0885519" />
+            <rotation angle="2.09439">
+                <axis x="-0.57735" y="-0.577351" z="0.57735" />
+            </rotation>
+        </bone>
+        <bone id="55" name="tag_righthand">
+            <position x="0.155469" y="0.0724697" z="0.0751299" />
+            <rotation angle="4.18879">
+                <axis x="-0.57735" y="0.57735" z="0.57735" />
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="Bip01" parent="root" />
+        <boneparent bone="Bip01 Hair" parent="Bip01 Head" />
+        <boneparent bone="Bip01 Hair02" parent="Bip01 Hair" />
+        <boneparent bone="Bip01 Hair03" parent="Bip01 Hair02" />
+        <boneparent bone="Bip01 Hair04" parent="Bip01 Hair03" />
+        <boneparent bone="Bip01 Hair05" parent="Bip01 Hair04" />
+        <boneparent bone="Bip01 Head" parent="Bip01 Neck" />
+        <boneparent bone="Bip01 L Calf" parent="Bip01 L Thigh" />
+        <boneparent bone="Bip01 L Clavicle" parent="Bip01 Neck" />
+        <boneparent bone="Bip01 L Finger0" parent="Bip01 L Hand" />
+        <boneparent bone="Bip01 L Finger01" parent="Bip01 L Finger0" />
+        <boneparent bone="Bip01 L Finger1" parent="Bip01 L Hand" />
+        <boneparent bone="Bip01 L Finger11" parent="Bip01 L Finger1" />
+        <boneparent bone="Bip01 L Finger2" parent="Bip01 L Hand" />
+        <boneparent bone="Bip01 L Finger21" parent="Bip01 L Finger2" />
+        <boneparent bone="Bip01 L Finger3" parent="Bip01 L Hand" />
+        <boneparent bone="Bip01 L Finger31" parent="Bip01 L Finger3" />
+        <boneparent bone="Bip01 L Foot" parent="Bip01 L Calf" />
+        <boneparent bone="Bip01 L Forearm" parent="Bip01 L UpperArm" />
+        <boneparent bone="Bip01 L Hand" parent="Bip01 L Forearm" />
+        <boneparent bone="Bip01 L Thigh" parent="Bip01 Spine" />
+        <boneparent bone="Bip01 L Toe0" parent="Bip01 L Foot" />
+        <boneparent bone="Bip01 L UpperArm" parent="Bip01 L Clavicle" />
+        <boneparent bone="Bip01 Left Ear Hair" parent="Bip01 Head" />
+        <boneparent bone="Bip01 Left Ear Hair02" parent="Bip01 Left Ear Hair" />
+        <boneparent bone="Bip01 Neck" parent="Bip01 Spine1" />
+        <boneparent bone="Bip01 Pelvis" parent="Bip01" />
+        <boneparent bone="Bip01 R Calf" parent="Bip01 R Thigh" />
+        <boneparent bone="Bip01 R Clavicle" parent="Bip01 Neck" />
+        <boneparent bone="Bip01 R Finger0" parent="Bip01 R Hand" />
+        <boneparent bone="Bip01 R Finger01" parent="Bip01 R Finger0" />
+        <boneparent bone="Bip01 R Finger1" parent="Bip01 R Hand" />
+        <boneparent bone="Bip01 R Finger11" parent="Bip01 R Finger1" />
+        <boneparent bone="Bip01 R Finger2" parent="Bip01 R Hand" />
+        <boneparent bone="Bip01 R Finger21" parent="Bip01 R Finger2" />
+        <boneparent bone="Bip01 R Finger3" parent="Bip01 R Hand" />
+        <boneparent bone="Bip01 R Finger31" parent="Bip01 R Finger3" />
+        <boneparent bone="Bip01 R Foot" parent="Bip01 R Calf" />
+        <boneparent bone="Bip01 R Forearm" parent="Bip01 R UpperArm" />
+        <boneparent bone="Bip01 R Hand" parent="Bip01 R Forearm" />
+        <boneparent bone="Bip01 R Thigh" parent="Bip01 Spine" />
+        <boneparent bone="Bip01 R Toe0" parent="Bip01 R Foot" />
+        <boneparent bone="Bip01 R UpperArm" parent="Bip01 R Clavicle" />
+        <boneparent bone="Bip01 Right Ear Hair" parent="Bip01 Head" />
+        <boneparent bone="Bip01 Right Ear Hair02" parent="Bip01 Right Ear Hair" />
+        <boneparent bone="Bip01 Spine" parent="Bip01 Pelvis" />
+        <boneparent bone="Bip01 Spine1" parent="Bip01 Spine" />
+        <boneparent bone="Bip01 Tail" parent="Bip01 Spine" />
+        <boneparent bone="Bip01 Tail1" parent="Bip01 Tail" />
+        <boneparent bone="Bip01 Tail2" parent="Bip01 Tail1" />
+        <boneparent bone="Bip01 Tail3" parent="Bip01 Tail2" />
+        <boneparent bone="Bip01 Tail4" parent="Bip01 Tail3" />
+        <boneparent bone="tag_leftarm" parent="Bip01 L Forearm" />
+        <boneparent bone="tag_lefthand" parent="Bip01 L Hand" />
+        <boneparent bone="tag_righthand" parent="Bip01 R Hand" />
+    </bonehierarchy>
+    <animations>
+        <animation name="Hit" length="0.533333">
+            <tracks>
+                <track bone="Bip01">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0.0443461" y="0.0320422" z="-0.0230484" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0.0552081" y="0.0990168" z="-0.0345728" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0.0670439" y="0.207911" z="-0.0588257" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0.0719601" y="0.162375" z="-0.0757753" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0.0764209" y="0.0772606" z="-0.0959303" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0.078253" y="-0.00931873" z="-0.111556" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0.0752833" y="-0.0592489" z="-0.114918" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.0679521" y="-0.0708898" z="-0.106634" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.0585288" y="-0.0702442" z="-0.0933794" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0.0475838" y="-0.0606632" z="-0.0765108" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Hair">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="1.7643e-005" y="1.71661e-006" z="3.31879e-005" />
+                            <rotate angle="0.463093">
+                                <axis x="-0.448731" y="-0.875242" z="-0.180534" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-3.03268e-005" y="-5.43594e-006" z="4.62532e-005" />
+                            <rotate angle="0.499649">
+                                <axis x="-0.512496" y="-0.74786" z="0.421963" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-0.000133133" y="-8.564e-005" z="4.92096e-005" />
+                            <rotate angle="1.03159">
+                                <axis x="-0.286464" y="-0.128493" z="0.949436" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-0.000151253" y="-0.000127912" z="3.98636e-005" />
+                            <rotate angle="1.27674">
+                                <axis x="-0.233927" y="-0.00953919" z="0.972207" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-0.00015564" y="-0.000150442" z="3.13759e-005" />
+                            <rotate angle="1.40546">
+                                <axis x="-0.21746" y="0.0563557" z="0.974441" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-0.000156212" y="-0.000159168" z="2.34127e-005" />
+                            <rotate angle="1.45917">
+                                <axis x="-0.213197" y="0.112227" z="0.970542" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-0.000156021" y="-0.000155067" z="1.688e-005" />
+                            <rotate angle="1.43977">
+                                <axis x="-0.213808" y="0.156823" z="0.964206" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-0.000153923" y="-0.00013895" z="1.33038e-005" />
+                            <rotate angle="1.349">
+                                <axis x="-0.213746" y="0.185672" z="0.959082" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-0.000147438" y="-0.000113297" z="1.19209e-005" />
+                            <rotate angle="1.19297">
+                                <axis x="-0.211863" y="0.200302" z="0.956553" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-0.000133324" y="-8.22067e-005" z="1.12534e-005" />
+                            <rotate angle="0.987455">
+                                <axis x="-0.210787" y="0.208479" z="0.955042" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Hair02">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-1.26839e-005" y="6.29425e-006" z="-4.27961e-005" />
+                            <rotate angle="0.228782">
+                                <axis x="0.809652" y="-0.544485" z="-0.21909" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="1.15395e-005" y="-2.28882e-006" z="-3.35813e-005" />
+                            <rotate angle="0.184052">
+                                <axis x="0.762553" y="-0.562478" z="0.319581" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="8.12531e-005" y="-9.72748e-006" z="-1.91927e-006" />
+                            <rotate angle="0.352598">
+                                <axis x="-0.081221" y="-0.040751" z="0.995863" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0.000106335" y="-6.29425e-006" z="3.23057e-006" />
+                            <rotate angle="0.459343">
+                                <axis x="-0.145478" y="-0.0119253" z="0.98929" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0.00011816" y="-4.57764e-006" z="-3.44515e-006" />
+                            <rotate angle="0.514166">
+                                <axis x="-0.0584422" y="-0.111095" z="0.99209" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0.00012331" y="-3.24249e-006" z="-1.7035e-005" />
+                            <rotate angle="0.559133">
+                                <axis x="0.0950599" y="-0.263635" z="0.959927" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0.000123119" y="-2.47955e-006" z="-3.07679e-005" />
+                            <rotate angle="0.59788">
+                                <axis x="0.231726" y="-0.389707" z="0.891309" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.000116539" y="-3.43323e-006" z="-3.83377e-005" />
+                            <rotate angle="0.597012">
+                                <axis x="0.303938" y="-0.453418" z="0.837874" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.000103092" y="-5.91278e-006" z="-3.8588e-005" />
+                            <rotate angle="0.541457">
+                                <axis x="0.326825" y="-0.473851" z="0.817711" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="8.46863e-005" y="-8.29697e-006" z="-3.54767e-005" />
+                            <rotate angle="0.454482">
+                                <axis x="0.338758" y="-0.484405" z="0.806595" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Hair03">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-4.34876e-005" y="1.44005e-005" z="-2.40326e-005" />
+                            <rotate angle="0.231623">
+                                <axis x="0.516793" y="-0.382255" z="-0.766032" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-4.44412e-005" y="1.50681e-005" z="-2.62082e-005" />
+                            <rotate angle="0.232865">
+                                <axis x="0.562218" y="-0.303866" z="-0.76914" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-3.21388e-005" y="1.01089e-005" z="-2.48909e-005" />
+                            <rotate angle="0.173194">
+                                <axis x="0.705379" y="-0.0238994" z="-0.708428" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-1.65462e-005" y="4.76837e-006" z="-2.43187e-005" />
+                            <rotate angle="0.124485">
+                                <axis x="0.886558" y="-0.134114" z="-0.44275" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="1.56879e-005" y="-2.67029e-006" z="-2.38419e-005" />
+                            <rotate angle="0.15922">
+                                <axis x="0.575581" y="-0.66699" z="0.473107" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="6.07014e-005" y="-6.29425e-006" z="-1.7786e-005" />
+                            <rotate angle="0.360624">
+                                <axis x="0.179028" y="-0.684438" z="0.706749" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="9.94205e-005" y="-1.71661e-006" z="-6.12736e-006" />
+                            <rotate angle="0.561309">
+                                <axis x="0.0657076" y="-0.67013" z="0.73933" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.000115967" y="2.28882e-006" z="2.01464e-006" />
+                            <rotate angle="0.651348">
+                                <axis x="0.0273154" y="-0.66302" z="0.748103" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.000111103" y="1.33514e-006" z="2.5034e-006" />
+                            <rotate angle="0.62006">
+                                <axis x="0.0142818" y="-0.658884" z="0.752109" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="9.63211e-005" y="-1.90735e-006" z="2.38419e-007" />
+                            <rotate angle="0.533172">
+                                <axis x="0.00782096" y="-0.656784" z="0.754038" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Hair04">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-6.23703e-005" y="-4.86374e-006" z="-6.1512e-006" />
+                            <rotate angle="0.345807">
+                                <axis x="0.0961172" y="0.271804" z="-0.957541" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-8.23975e-005" y="-1.35899e-006" z="4.43459e-006" />
+                            <rotate angle="0.469372">
+                                <axis x="-0.0183164" y="0.357042" z="-0.933909" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-0.000108814" y="1.12295e-005" z="3.30448e-005" />
+                            <rotate angle="0.692564">
+                                <axis x="-0.176383" y="0.46538" z="-0.867358" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-0.000106049" y="1.0848e-005" z="3.49045e-005" />
+                            <rotate angle="0.689938">
+                                <axis x="-0.187674" y="0.489421" z="-0.851613" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-8.29697e-005" y="5.48363e-007" z="1.76907e-005" />
+                            <rotate angle="0.52437">
+                                <axis x="-0.11471" y="0.507537" z="-0.85396" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-4.03881e-005" y="-5.55515e-006" z="-1.01089e-005" />
+                            <rotate angle="0.258471">
+                                <axis x="0.227812" y="0.515343" z="-0.82615" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="5.00679e-006" y="1.69277e-006" z="-3.26157e-005" />
+                            <rotate angle="0.173857">
+                                <axis x="0.992631" y="-0.0199744" z="0.119518" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="3.11852e-005" y="1.21832e-005" z="-4.10318e-005" />
+                            <rotate angle="0.292121">
+                                <axis x="0.785346" y="-0.290806" z="0.546502" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="3.70502e-005" y="1.4472e-005" z="-3.96252e-005" />
+                            <rotate angle="0.314663">
+                                <axis x="0.718038" y="-0.331349" z="0.61207" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="3.52859e-005" y="1.27554e-005" z="-3.44992e-005" />
+                            <rotate angle="0.286757">
+                                <axis x="0.688252" y="-0.346978" z="0.637115" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Hair05">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="5.35965e-005" y="-5.22137e-006" z="3.4523e-005" />
+                            <rotate angle="0.353277">
+                                <axis x="-0.287621" y="0.798474" z="0.52888" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="3.7384e-005" y="-4.22001e-006" z="6.0606e-005" />
+                            <rotate angle="0.455752">
+                                <axis x="-0.438267" y="0.852473" z="0.284975" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-8.58307e-006" y="1.25885e-005" z="0.000123453" />
+                            <rotate angle="0.703388">
+                                <axis x="-0.588005" y="0.802968" z="-0.097433" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-1.13487e-005" y="1.66893e-005" z="0.000134134" />
+                            <rotate angle="0.739628">
+                                <axis x="-0.608017" y="0.785093" z="-0.118085" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="1.44005e-005" y="6.96182e-006" z="0.000115633" />
+                            <rotate angle="0.641573">
+                                <axis x="-0.609092" y="0.792066" z="0.0404723" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="6.40869e-005" y="-1.23978e-006" z="8.07285e-005" />
+                            <rotate angle="0.50312">
+                                <axis x="-0.524377" y="0.728943" z="0.44008" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0.000116062" y="3.5286e-006" z="5.095e-005" />
+                            <rotate angle="0.473231">
+                                <axis x="-0.263356" y="0.447999" z="0.854366" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.000141907" y="1.05858e-005" z="3.52144e-005" />
+                            <rotate angle="0.500416">
+                                <axis x="-0.0671682" y="0.211962" z="0.974967" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.000137138" y="9.05991e-006" z="2.76327e-005" />
+                            <rotate angle="0.471277">
+                                <axis x="0.000318612" y="0.125332" z="0.992115" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0.0001194" y="4.673e-006" z="2.11716e-005" />
+                            <rotate angle="0.404784">
+                                <axis x="0.033954" y="0.0815756" z="0.996089" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Head">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="9.53674e-008" z="0" />
+                            <rotate angle="0.542859">
+                                <axis x="-0.352591" y="-0.588883" z="0.727253" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="9.53674e-008" z="2.98023e-008" />
+                            <rotate angle="0.571817">
+                                <axis x="-0.642109" y="-0.630454" z="0.436147" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-1.90735e-007" y="1.43051e-007" z="1.13249e-007" />
+                            <rotate angle="0.62418">
+                                <axis x="-0.792791" y="-0.471563" z="-0.386147" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0" y="1.43051e-007" z="1.13249e-007" />
+                            <rotate angle="0.634654">
+                                <axis x="-0.765835" y="-0.441913" z="-0.46713" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-1.90735e-007" y="4.76837e-008" z="1.78814e-008" />
+                            <rotate angle="0.63674">
+                                <axis x="-0.745293" y="-0.433526" z="-0.506551" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-1.90735e-007" y="9.53674e-008" z="1.78814e-008" />
+                            <rotate angle="0.627614">
+                                <axis x="-0.736936" y="-0.441649" z="-0.511734" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-3.8147e-007" y="9.53674e-008" z="1.78814e-008" />
+                            <rotate angle="0.605066">
+                                <axis x="-0.742763" y="-0.453707" z="-0.492395" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="1.90735e-007" z="1.78814e-008" />
+                            <rotate angle="0.567571">
+                                <axis x="-0.76163" y="-0.451825" z="-0.464515" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0" y="1.90735e-007" z="1.78814e-008" />
+                            <rotate angle="0.524486">
+                                <axis x="-0.786405" y="-0.415985" z="-0.456644" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="1.90735e-007" y="1.90735e-007" z="3.57628e-008" />
+                            <rotate angle="0.468904">
+                                <axis x="-0.813758" y="-0.353511" z="-0.461332" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Calf">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="2.38419e-008" z="4.76837e-008" />
+                            <rotate angle="0.345835">
+                                <axis x="1.21401e-007" y="-6.59378e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-4.76837e-008" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.409402">
+                                <axis x="-1.54417e-007" y="3.74344e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-4.76837e-008" y="-1.19209e-008" z="-4.76837e-008" />
+                            <rotate angle="0.478203">
+                                <axis x="-8.09522e-009" y="-1.61904e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="4.76837e-008" y="-3.57628e-008" z="-9.53674e-008" />
+                            <rotate angle="0.578944">
+                                <axis x="6.80866e-009" y="-5.44693e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0" y="-3.57628e-008" z="-9.53674e-008" />
+                            <rotate angle="0.683078">
+                                <axis x="5.90207e-009" y="-1.4165e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-4.76837e-008" y="-1.19209e-008" z="0" />
+                            <rotate angle="0.741591">
+                                <axis x="-4.96365e-008" y="-1.10303e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0" y="1.19209e-008" z="-4.76837e-008" />
+                            <rotate angle="0.742945">
+                                <axis x="4.68098e-008" y="-0" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="1.90735e-007" y="-3.57628e-008" z="4.76837e-008" />
+                            <rotate angle="0.705311">
+                                <axis x="2.2986e-008" y="-1.37916e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-4.76837e-008" y="-5.96046e-008" z="-4.76837e-008" />
+                            <rotate angle="0.648913">
+                                <axis x="-4.93154e-008" y="-3.69866e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="9.53674e-008" y="-5.96046e-008" z="-9.53674e-008" />
+                            <rotate angle="0.574764">
+                                <axis x="-7.88041e-008" y="-8.22304e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="9.53674e-008" y="2.38419e-008" z="-4.76837e-008" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Clavicle">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0.00928764" y="0.0117957" z="0.0154912" />
+                            <rotate angle="0.111214">
+                                <axis x="-0.683783" y="-0.66566" z="-0.298894" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0.00246067" y="-0.00865455" z="0.00574123" />
+                            <rotate angle="0.184606">
+                                <axis x="0.192593" y="-0.440456" z="0.876873" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0.00159855" y="-0.051654" z="-0.0250138" />
+                            <rotate angle="0.554575">
+                                <axis x="0.584796" y="-0.141467" z="0.798749" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0.00443249" y="-0.0570007" z="-0.0229905" />
+                            <rotate angle="0.546557">
+                                <axis x="0.713708" y="-0.179782" z="0.676978" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0.00751953" y="-0.0596662" z="-0.0161954" />
+                            <rotate angle="0.53588">
+                                <axis x="0.829746" y="-0.24815" z="0.499943" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0.010603" y="-0.0594117" z="-0.00686451" />
+                            <rotate angle="0.537941">
+                                <axis x="0.900246" y="-0.325848" z="0.288755" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0.013356" y="-0.0564702" z="0.00268111" />
+                            <rotate angle="0.553015">
+                                <axis x="0.919775" y="-0.386458" z="0.0683002" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.0152163" y="-0.0517441" z="0.0103451" />
+                            <rotate angle="0.571184">
+                                <axis x="0.900113" y="-0.42081" z="-0.112763" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.0154161" y="-0.0466084" z="0.0144376" />
+                            <rotate angle="0.570579">
+                                <axis x="0.871729" y="-0.433161" z="-0.229043" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0.0130224" y="-0.0404859" z="0.0144395" />
+                            <rotate angle="0.521363">
+                                <axis x="0.851379" y="-0.433582" z="-0.295229" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger0">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="9.53674e-008" y="4.76837e-008" z="0" />
+                            <rotate angle="0.0394276">
+                                <axis x="3.78049e-007" y="-2.26829e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="9.53674e-008" y="-7.15256e-008" z="9.53674e-008" />
+                            <rotate angle="0.0539827">
+                                <axis x="1.38091e-007" y="-1.65709e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="9.53674e-008" y="0" z="0" />
+                            <rotate angle="0.0781422">
+                                <axis x="-1.31234e-007" y="-1.04987e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0" y="4.76837e-008" z="0" />
+                            <rotate angle="0.0823243">
+                                <axis x="-6.0733e-007" y="-1.72148e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="1.90735e-007" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.0717862">
+                                <axis x="2.51574e-008" y="-1.45426e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-9.53674e-008" y="0" z="9.53674e-008" />
+                            <rotate angle="0.0392822">
+                                <axis x="-8.53779e-007" y="-9.48644e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="4.76837e-008" y="2.38419e-008" z="-9.53674e-008" />
+                            <rotate angle="0.00941764">
+                                <axis x="2.12375e-006" y="-1.14584e-005" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-4.76837e-008" y="-4.76837e-008" z="9.53674e-008" />
+                            <rotate angle="0.0619007">
+                                <axis x="6.62442e-007" y="-1.9271e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="9.53674e-008" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.105693">
+                                <axis x="7.98934e-007" y="-7.23896e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="4.76837e-008" y="4.76837e-008" z="1.90735e-007" />
+                            <rotate angle="0.128372">
+                                <axis x="-2.21881e-007" y="-1.22216e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger01">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-1.90735e-007" y="1.43051e-007" z="-9.53674e-008" />
+                            <rotate angle="0.12146">
+                                <axis x="6.76423e-007" y="-2.15226e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="1.66893e-007" z="-9.53674e-008" />
+                            <rotate angle="0.158731">
+                                <axis x="-3.77088e-007" y="-4.00656e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0" y="7.15256e-008" z="-9.53674e-008" />
+                            <rotate angle="0.18038">
+                                <axis x="5.81416e-007" y="-6.12564e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0" y="3.27826e-008" z="0" />
+                            <rotate angle="0.166689">
+                                <axis x="1.03282e-006" y="-5.33251e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0" y="-1.19209e-008" z="-9.53674e-008" />
+                            <rotate angle="0.124059">
+                                <axis x="9.63375e-007" y="2.25791e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-1.90735e-007" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.0349254">
+                                <axis x="1.92049e-006" y="-2.01385e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0" y="4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.091357">
+                                <axis x="2.1642e-006" y="1.07189e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="-2.38419e-008" z="-1.43051e-007" />
+                            <rotate angle="0.223823">
+                                <axis x="6.54563e-007" y="1.8462e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0" y="-2.38419e-008" z="-9.53674e-008" />
+                            <rotate angle="0.331519">
+                                <axis x="5.32218e-007" y="-3.57674e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0" y="2.38419e-008" z="-9.53674e-008" />
+                            <rotate angle="0.383486">
+                                <axis x="1.04544e-007" y="-5.35164e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger1">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="-4.76837e-008" z="1.90735e-007" />
+                            <rotate angle="0.0394276">
+                                <axis x="-1.51219e-006" y="-2.64633e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="-2.38419e-008" z="1.90735e-007" />
+                            <rotate angle="0.0539827">
+                                <axis x="-1.65709e-006" y="1.3809e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="9.53674e-008" y="9.53674e-008" z="-1.90735e-007" />
+                            <rotate angle="0.0781422">
+                                <axis x="-5.72658e-007" y="-1.90886e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0" y="-9.53674e-008" z="1.90735e-007" />
+                            <rotate angle="0.0823243">
+                                <axis x="9.06042e-007" y="-1.81208e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-9.53674e-008" y="-9.53674e-008" z="2.86102e-007" />
+                            <rotate angle="0.0717862">
+                                <axis x="2.07752e-006" y="9.90637e-014" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-9.53674e-008" y="-9.53674e-008" z="2.86102e-007" />
+                            <rotate angle="0.0392822">
+                                <axis x="3.79458e-006" y="-7.58916e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-4.76837e-008" y="-4.76837e-008" z="9.53674e-008" />
+                            <rotate angle="0.00941764">
+                                <axis x="7.9023e-006" y="-1.58046e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="-2.38419e-008" z="9.53674e-008" />
+                            <rotate angle="0.0618968">
+                                <axis x="3.61333e-007" y="-1.92711e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-1.43051e-007" y="-1.19209e-007" z="3.8147e-007" />
+                            <rotate angle="0.105693">
+                                <axis x="4.94369e-007" y="-4.23745e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-4.76837e-008" y="-2.38419e-008" z="3.8147e-007" />
+                            <rotate angle="0.128372">
+                                <axis x="-5.81984e-008" y="-4.65587e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger11">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-9.53674e-008" y="9.53674e-008" z="0" />
+                            <rotate angle="0.12146">
+                                <axis x="4.91944e-007" y="1.22986e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-9.53674e-008" y="9.53674e-008" z="0" />
+                            <rotate angle="0.158731">
+                                <axis x="-6.12768e-007" y="-4.7136e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-1.90735e-007" y="-9.53674e-008" z="1.90735e-007" />
+                            <rotate angle="0.18038">
+                                <axis x="-2.07649e-007" y="-8.30596e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-1.90735e-007" y="1.43051e-007" z="-9.53674e-008" />
+                            <rotate angle="0.166687">
+                                <axis x="-5.38864e-007" y="2.69432e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0" y="9.53674e-008" z="0" />
+                            <rotate angle="0.124059">
+                                <axis x="-4.66635e-007" y="7.22532e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0" y="9.53674e-008" z="0" />
+                            <rotate angle="0.0349254">
+                                <axis x="-1.60043e-006" y="2.98746e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0" y="9.53674e-008" z="0" />
+                            <rotate angle="0.091357">
+                                <axis x="-2.6542e-007" y="1.55769e-013" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="9.53674e-008" z="9.53674e-008" />
+                            <rotate angle="0.223824">
+                                <axis x="-7.34285e-008" y="2.68539e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-9.53674e-008" y="9.53674e-008" z="-9.53674e-008" />
+                            <rotate angle="0.331518">
+                                <axis x="-6.29506e-008" y="2.28912e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0" y="9.53674e-008" z="0" />
+                            <rotate angle="0.383486">
+                                <axis x="-6.47175e-008" y="-1.99131e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger2">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0.0394276">
+                                <axis x="-2.26829e-006" y="7.56097e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="2.38419e-008" z="0" />
+                            <rotate angle="0.0539827">
+                                <axis x="-4.14271e-007" y="1.10472e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0.0781422">
+                                <axis x="-1.3362e-006" y="7.63544e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-9.53674e-008" y="-4.76837e-008" z="0" />
+                            <rotate angle="0.0823243">
+                                <axis x="3.62416e-007" y="-0" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-1.90735e-007" y="4.76837e-008" z="9.53674e-008" />
+                            <rotate angle="0.0717862">
+                                <axis x="-2.07751e-007" y="5.19377e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-9.53674e-008" y="4.76837e-008" z="0" />
+                            <rotate angle="0.0392822">
+                                <axis x="3.79456e-007" y="5.69185e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-4.76837e-008" y="4.76837e-008" z="0" />
+                            <rotate angle="0.00941764">
+                                <axis x="-7.9024e-007" y="8.8902e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-9.53674e-008" y="0" z="-9.53674e-008" />
+                            <rotate angle="0.0619007">
+                                <axis x="-2.40888e-007" y="1.50555e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0" y="-4.76837e-008" z="0" />
+                            <rotate angle="0.105693">
+                                <axis x="-2.11872e-007" y="1.7656e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-4.76837e-008" y="-2.38419e-008" z="1.90735e-007" />
+                            <rotate angle="0.128372">
+                                <axis x="-1.74595e-007" y="-0" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger21">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="9.53674e-008" z="1.90735e-007" />
+                            <rotate angle="0.12146">
+                                <axis x="-3.38212e-007" y="-2.45972e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="9.53674e-008" z="1.90735e-007" />
+                            <rotate angle="0.158731">
+                                <axis x="-4.7136e-008" y="9.42719e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0" y="0" z="1.90735e-007" />
+                            <rotate angle="0.18038">
+                                <axis x="1.7131e-007" y="8.30595e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-9.53674e-008" y="0" z="3.8147e-007" />
+                            <rotate angle="0.166687">
+                                <axis x="3.76082e-007" y="1.79622e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="9.53674e-008" y="4.76837e-008" z="9.53674e-008" />
+                            <rotate angle="0.124059">
+                                <axis x="2.40844e-007" y="-0" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="9.53674e-008" y="0" z="1.90735e-007" />
+                            <rotate angle="0.0349254">
+                                <axis x="-2.1339e-007" y="1.06695e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="9.53674e-008" y="9.53674e-008" z="9.53674e-008" />
+                            <rotate angle="0.091357">
+                                <axis x="8.16677e-008" y="2.45003e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="2.38419e-008" z="3.8147e-007" />
+                            <rotate angle="0.223823">
+                                <axis x="-8.00308e-015" y="1.67837e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0" y="1.43051e-007" z="1.90735e-007" />
+                            <rotate angle="0.331518">
+                                <axis x="-2.28911e-008" y="1.43069e-009" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-4.76837e-008" y="-4.76837e-008" z="3.8147e-007" />
+                            <rotate angle="0.383486">
+                                <axis x="5.97392e-008" y="4.72935e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger3">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0.0394276">
+                                <axis x="-3.02439e-006" y="3.78048e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="9.53674e-008" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.0539827">
+                                <axis x="-5.52363e-007" y="3.45227e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0" y="0" z="-1.90735e-007" />
+                            <rotate angle="0.0781422">
+                                <axis x="-2.29063e-006" y="1.19304e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-9.53674e-008" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.0823243">
+                                <axis x="-7.24831e-007" y="9.06039e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="9.53674e-008" y="-1.43051e-007" z="0" />
+                            <rotate angle="0.0717862">
+                                <axis x="-1.66201e-006" y="3.11627e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.0392822">
+                                <axis x="-0" y="-1.89729e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-4.76837e-008" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.00941764">
+                                <axis x="3.16094e-006" y="4.74141e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="9.53674e-008" y="-4.76837e-008" z="-1.90735e-007" />
+                            <rotate angle="0.0619007">
+                                <axis x="-7.22664e-007" y="2.40888e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="9.53674e-008" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.105693">
+                                <axis x="-1.27123e-006" y="-4.23744e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="4.76837e-008" y="0" z="0" />
+                            <rotate angle="0.128372">
+                                <axis x="3.4919e-007" y="2.32793e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Finger31">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-8.34465e-008" y="-4.76837e-008" z="0" />
+                            <rotate angle="0.12146">
+                                <axis x="1.84479e-007" y="-1.22986e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-3.57628e-008" y="0" z="-1.90735e-007" />
+                            <rotate angle="0.158731">
+                                <axis x="-4.00656e-007" y="4.7136e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-1.19209e-008" y="0" z="0" />
+                            <rotate angle="0.18038">
+                                <axis x="2.90709e-007" y="2.49179e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-1.19209e-008" y="1.43051e-007" z="0" />
+                            <rotate angle="0.166687">
+                                <axis x="-8.98107e-008" y="-2.69432e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-8.34465e-008" y="0" z="1.90735e-007" />
+                            <rotate angle="0.124059">
+                                <axis x="-6.02109e-007" y="1.20422e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="1.19209e-008" y="0" z="0" />
+                            <rotate angle="0.0349254">
+                                <axis x="-3.41424e-006" y="1.06695e-006" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-8.34465e-008" y="1.43051e-007" z="0" />
+                            <rotate angle="0.091357">
+                                <axis x="-9.80014e-007" y="-3.67505e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-1.3113e-007" y="4.76837e-008" z="0" />
+                            <rotate angle="0.223823">
+                                <axis x="-1.34269e-007" y="-5.45469e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-3.57628e-008" y="1.90735e-007" z="0" />
+                            <rotate angle="0.331518">
+                                <axis x="-1.83129e-007" y="8.01189e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-1.78814e-007" y="9.53674e-008" z="-9.53674e-008" />
+                            <rotate angle="0.383485">
+                                <axis x="-3.18609e-007" y="5.4761e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Foot">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-4.76837e-008" y="-5.96046e-008" z="-1.43051e-007" />
+                            <rotate angle="0.142909">
+                                <axis x="0.433798" y="-0.305439" z="0.847659" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-1.90735e-007" y="-2.38419e-008" z="-2.86102e-007" />
+                            <rotate angle="0.124324">
+                                <axis x="0.438829" y="-0.362606" z="0.822159" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="9.53674e-008" y="1.19209e-008" z="-9.53674e-008" />
+                            <rotate angle="0.0798956">
+                                <axis x="0.461404" y="-0.568086" z="0.681458" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="9.53674e-008" y="1.19209e-008" z="-9.53674e-008" />
+                            <rotate angle="0.158979">
+                                <axis x="0.444338" y="-0.453067" z="0.772848" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-9.53674e-008" y="3.57628e-008" z="-4.76837e-008" />
+                            <rotate angle="0.273281">
+                                <axis x="0.432244" y="-0.388825" z="0.813621" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-1.43051e-007" y="-2.38419e-008" z="-3.33786e-007" />
+                            <rotate angle="0.369001">
+                                <axis x="0.427409" y="-0.358088" z="0.830117" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-9.53674e-008" y="0" z="-1.90735e-007" />
+                            <rotate angle="0.409093">
+                                <axis x="0.426646" y="-0.346018" z="0.835611" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="9.53674e-008" y="1.19209e-008" z="-1.90735e-007" />
+                            <rotate angle="0.399655">
+                                <axis x="0.427321" y="-0.344511" z="0.835888" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-1.90735e-007" y="1.19209e-008" z="-1.90735e-007" />
+                            <rotate angle="0.371202">
+                                <axis x="0.428291" y="-0.345793" z="0.834862" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-9.53674e-008" y="-3.57628e-008" z="-2.86102e-007" />
+                            <rotate angle="0.327138">
+                                <axis x="0.429381" y="-0.349309" z="0.832836" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="-9.53674e-008" y="-1.19209e-008" z="-2.38419e-007" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Forearm">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="1.90735e-007" y="-7.15256e-008" z="-9.53674e-008" />
+                            <rotate angle="0.123569">
+                                <axis x="-3.62693e-007" y="1.51122e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="9.53674e-008" y="0" z="-9.53674e-008" />
+                            <rotate angle="0.183263">
+                                <axis x="-3.27071e-007" y="-2.86187e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="1.90735e-007" y="0" z="9.53674e-008" />
+                            <rotate angle="0.283228">
+                                <axis x="-1.59966e-007" y="1.73296e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="1.90735e-007" y="-7.15256e-008" z="9.53674e-008" />
+                            <rotate angle="0.336539">
+                                <axis x="-2.70748e-007" y="2.19982e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="9.53674e-008" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.405651">
+                                <axis x="-7.55221e-008" y="1.51044e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="2.86102e-007" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.516457">
+                                <axis x="-1.20706e-007" y="-5.37517e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="2.86102e-007" y="-7.15256e-008" z="0" />
+                            <rotate angle="0.661629">
+                                <axis x="-2.91037e-007" y="4.24429e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="2.86102e-007" y="2.38419e-008" z="0" />
+                            <rotate angle="0.801527">
+                                <axis x="-1.86675e-007" y="1.81489e-008" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="9.53674e-008" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.896507">
+                                <axis x="-5.72277e-008" y="1.90759e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="9.53674e-008" y="-2.38419e-008" z="-9.53674e-008" />
+                            <rotate angle="0.906929">
+                                <axis x="-1.70274e-007" y="-1.27706e-007" z="1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Hand">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0.0471044">
+                                <axis x="0.37094" y="0.750548" z="0.546883" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-1.43051e-007" y="9.53674e-008" z="0" />
+                            <rotate angle="0.0566257">
+                                <axis x="0.34259" y="0.939007" z="-0.0299652" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-1.19209e-007" y="1.90735e-007" z="-9.53674e-008" />
+                            <rotate angle="0.221067">
+                                <axis x="-0.0364379" y="0.441049" z="-0.896743" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-4.76837e-008" y="-9.53674e-008" z="-9.53674e-008" />
+                            <rotate angle="0.340997">
+                                <axis x="-0.0675376" y="0.341192" z="-0.937564" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="4.76837e-008" y="-1.90735e-007" z="1.90735e-007" />
+                            <rotate angle="0.446175">
+                                <axis x="-0.0596374" y="0.27924" z="-0.958368" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="2.38419e-008" y="-1.90735e-007" z="2.86102e-007" />
+                            <rotate angle="0.552375">
+                                <axis x="-0.0257185" y="0.219024" z="-0.97538" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-9.53674e-008" y="-1.90735e-007" z="9.53674e-008" />
+                            <rotate angle="0.674246">
+                                <axis x="0.0124038" y="0.162874" z="-0.986569" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-2.38419e-008" y="0" z="9.53674e-008" />
+                            <rotate angle="0.784078">
+                                <axis x="0.0438651" y="0.119474" z="-0.991868" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="4.76837e-008" y="-9.53674e-008" z="9.53674e-008" />
+                            <rotate angle="0.852574">
+                                <axis x="0.0665934" y="0.0887562" z="-0.993825" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="2.38419e-008" y="0" z="9.53674e-008" />
+                            <rotate angle="0.849975">
+                                <axis x="0.0800477" y="0.0698545" z="-0.99434" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L Thigh">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-0.0116055" y="-0.0285316" z="-0.00944952" />
+                            <rotate angle="0.405576">
+                                <axis x="0.312172" y="-0.941237" z="0.128927" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-0.0171338" y="-0.0312788" z="-0.0121607" />
+                            <rotate angle="0.447446">
+                                <axis x="0.214535" y="-0.918913" z="0.33102" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-0.0277894" y="-0.0285389" z="-0.0153076" />
+                            <rotate angle="0.491761">
+                                <axis x="0.000634645" y="-0.726915" z="0.686728" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-0.0303303" y="-0.0300264" z="-0.016917" />
+                            <rotate angle="0.516696">
+                                <axis x="-0.055236" y="-0.70477" z="0.707282" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-0.0324594" y="-0.032432" z="-0.0187479" />
+                            <rotate angle="0.525935">
+                                <axis x="-0.103036" y="-0.725439" z="0.68053" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-0.0338511" y="-0.0346674" z="-0.020251" />
+                            <rotate angle="0.515927">
+                                <axis x="-0.141984" y="-0.770049" z="0.621985" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-0.0341894" y="-0.0356695" z="-0.0208074" />
+                            <rotate angle="0.495186">
+                                <axis x="-0.170673" y="-0.802907" z="0.571149" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-0.0331184" y="-0.0343935" z="-0.0197971" />
+                            <rotate angle="0.463478">
+                                <axis x="-0.186283" y="-0.808904" z="0.557649" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-0.0303313" y="-0.0306681" z="-0.0171433" />
+                            <rotate angle="0.415781">
+                                <axis x="-0.18773" y="-0.798946" z="0.571352" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-0.025976" y="-0.0253903" z="-0.0135384" />
+                            <rotate angle="0.355293">
+                                <axis x="-0.17765" y="-0.775196" z="0.606228" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 L UpperArm">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-2.38419e-008" y="5.96046e-009" z="0" />
+                            <rotate angle="0.319155">
+                                <axis x="0.560847" y="-0.228762" z="-0.795688" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="4.17233e-008" z="-1.90735e-007" />
+                            <rotate angle="0.363527">
+                                <axis x="0.538286" y="-0.484611" z="-0.689493" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-9.53674e-008" y="4.17233e-008" z="0" />
+                            <rotate angle="0.462324">
+                                <axis x="0.162031" y="-0.985386" z="0.0525388" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-7.15256e-008" y="-5.96046e-009" z="0" />
+                            <rotate angle="0.538856">
+                                <axis x="0.0629624" y="-0.966175" z="0.250085" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0" y="-5.96046e-009" z="0" />
+                            <rotate angle="0.575213">
+                                <axis x="0.0314212" y="-0.947493" z="0.31823" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-2.38419e-008" y="8.9407e-008" z="0" />
+                            <rotate angle="0.556885">
+                                <axis x="0.0270357" y="-0.964226" z="0.263698" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-2.38419e-008" y="1.37091e-007" z="-1.90735e-007" />
+                            <rotate angle="0.515468">
+                                <axis x="0.00481058" y="-0.99277" z="0.119938" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-3.57628e-008" y="-1.01328e-007" z="1.90735e-007" />
+                            <rotate angle="0.478318">
+                                <axis x="-0.0518265" y="-0.99485" z="-0.0871053" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-7.15256e-008" y="-5.36442e-008" z="1.90735e-007" />
+                            <rotate angle="0.456252">
+                                <axis x="-0.134889" y="-0.943273" z="-0.303382" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-7.15256e-008" y="-5.96046e-009" z="0" />
+                            <rotate angle="0.433607">
+                                <axis x="-0.215097" y="-0.858314" z="-0.465865" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Neck">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="5.53131e-006" y="-1.80602e-006" z="-1.66118e-005" />
+                            <rotate angle="0.206586">
+                                <axis x="0.584885" y="-0.774977" z="0.239418" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-1.20163e-005" y="-4.94123e-006" z="-1.70469e-006" />
+                            <rotate angle="0.110435">
+                                <axis x="0.260273" y="-0.481265" z="-0.837044" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-4.94003e-005" y="4.9293e-006" z="3.23534e-005" />
+                            <rotate angle="0.484956">
+                                <axis x="-0.360493" y="0.397477" z="-0.843835" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-5.77927e-005" y="3.97563e-006" z="3.0601e-005" />
+                            <rotate angle="0.52202">
+                                <axis x="-0.295503" y="0.337498" z="-0.893741" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-6.52313e-005" y="9.71556e-007" z="2.3973e-005" />
+                            <rotate angle="0.53588">
+                                <axis x="-0.192131" y="0.234448" z="-0.952953" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-7.03812e-005" y="-2.89083e-006" z="1.41561e-005" />
+                            <rotate angle="0.542795">
+                                <axis x="-0.0642924" y="0.10321" z="-0.99258" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-7.28607e-005" y="-6.89626e-006" z="3.24845e-006" />
+                            <rotate angle="0.550293">
+                                <axis x="0.0651096" y="-0.0319518" z="-0.997366" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-7.20024e-005" y="-9.7096e-006" z="-6.2108e-006" />
+                            <rotate angle="0.553937">
+                                <axis x="0.171588" y="-0.144377" z="-0.974532" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-6.82831e-005" y="-1.14739e-005" z="-1.16467e-005" />
+                            <rotate angle="0.540019">
+                                <axis x="0.238117" y="-0.214651" z="-0.94722" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-6.0463e-005" y="-1.2666e-005" z="-1.1906e-005" />
+                            <rotate angle="0.483509">
+                                <axis x="0.268097" y="-0.245975" z="-0.931461" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R Calf">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="-8.9407e-009" z="-4.76837e-008" />
+                            <rotate angle="0.159342">
+                                <axis x="-2.34784e-007" y="1.40871e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="1.43051e-007" y="-6.85453e-008" z="-1.43051e-007" />
+                            <rotate angle="0.282681">
+                                <axis x="-2.27045e-007" y="2.13689e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0" y="-9.23872e-008" z="-2.38419e-008" />
+                            <rotate angle="0.447828">
+                                <axis x="-2.88209e-007" y="8.60326e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0" y="-2.08616e-008" z="4.76837e-008" />
+                            <rotate angle="0.469774">
+                                <axis x="-4.73186e-008" y="-4.93759e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="1.43051e-007" y="-2.08616e-008" z="-2.38419e-008" />
+                            <rotate angle="0.461141">
+                                <axis x="-4.06042e-007" y="1.67441e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="1.43051e-007" y="-2.08616e-008" z="-2.38419e-008" />
+                            <rotate angle="0.417906">
+                                <axis x="-1.19328e-007" y="4.03878e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="1.43051e-007" y="-2.08616e-008" z="2.38419e-008" />
+                            <rotate angle="0.365951">
+                                <axis x="-4.16423e-007" y="-4.16423e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-4.76837e-008" y="-3.27826e-008" z="0" />
+                            <rotate angle="0.32425">
+                                <axis x="-1.40313e-007" y="1.87084e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="9.53674e-008" y="-2.08616e-008" z="-4.76837e-008" />
+                            <rotate angle="0.281754">
+                                <axis x="-3.75154e-007" y="1.87577e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="9.53674e-008" y="-4.47035e-008" z="-4.76837e-008" />
+                            <rotate angle="0.23719">
+                                <axis x="-6.34166e-007" y="5.39041e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="-2.68221e-008" z="-2.38419e-008" />
+                            <rotate angle="0">
+                                <axis x="-0.0305971" y="0.0642538" z="-0.997464" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R Clavicle">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-0.00886955" y="-0.00379906" z="0.00936937" />
+                            <rotate angle="0.109667">
+                                <axis x="-0.105141" y="-0.99103" z="0.0824914" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-0.00726223" y="-0.0102214" z="0.00361885" />
+                            <rotate angle="0.203773">
+                                <axis x="-0.771577" y="0.0249625" z="-0.635646" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0.00181923" y="-0.0211366" z="-0.0107333" />
+                            <rotate angle="0.603039">
+                                <axis x="-0.722927" y="0.453093" z="-0.521617" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0.00027504" y="-0.0281377" z="-0.0107165" />
+                            <rotate angle="0.601373">
+                                <axis x="-0.769982" y="0.496485" z="-0.400786" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-0.00287609" y="-0.0370372" z="-0.00853218" />
+                            <rotate angle="0.578343">
+                                <axis x="-0.821911" y="0.524881" z="-0.221276" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-0.00669832" y="-0.046038" z="-0.00435328" />
+                            <rotate angle="0.56006">
+                                <axis x="-0.853735" y="0.520656" z="-0.00732584" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-0.010442" y="-0.0533604" z="0.00102792" />
+                            <rotate angle="0.553519">
+                                <axis x="-0.853487" y="0.482474" z="0.196924" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-0.0135429" y="-0.0575345" z="0.00613931" />
+                            <rotate angle="0.549778">
+                                <axis x="-0.82765" y="0.43112" z="0.359348" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-0.0155041" y="-0.0575061" z="0.00913422" />
+                            <rotate angle="0.533073">
+                                <axis x="-0.797821" y="0.391236" z="0.458711" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-0.0161022" y="-0.0516644" z="0.00900871" />
+                            <rotate angle="0.476798">
+                                <axis x="-0.778615" y="0.373166" z="0.504485" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R Foot">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="4.76837e-008" y="4.76837e-008" z="-4.76837e-008" />
+                            <rotate angle="0.0517961">
+                                <axis x="-0.0496167" y="0.489373" z="0.870662" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="-2.38419e-008" z="2.38419e-008" />
+                            <rotate angle="0.0633326">
+                                <axis x="-0.123285" y="0.20866" z="0.970187" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="9.53674e-008" y="-7.15256e-008" z="4.76837e-008" />
+                            <rotate angle="0.0724409">
+                                <axis x="-0.148736" y="-0.185975" z="0.971232" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="1.43051e-007" y="0" z="1.19209e-007" />
+                            <rotate angle="0.111986">
+                                <axis x="-0.145888" y="0.115639" z="0.982519" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="9.53674e-008" y="2.38419e-008" z="2.38419e-008" />
+                            <rotate angle="0.171904">
+                                <axis x="-0.124904" y="0.320255" z="0.939061" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="9.53674e-008" y="-2.38419e-008" z="4.76837e-008" />
+                            <rotate angle="0.21901">
+                                <axis x="-0.0969209" y="0.422369" z="0.901227" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0" y="4.76837e-008" z="4.76837e-008" />
+                            <rotate angle="0.2327">
+                                <axis x="-0.0763928" y="0.46445" z="0.882298" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="2.38419e-007" y="7.15256e-008" z="7.15256e-008" />
+                            <rotate angle="0.220226">
+                                <axis x="-0.0686725" y="0.471543" z="0.879165" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="1.43051e-007" y="2.38419e-008" z="2.38419e-008" />
+                            <rotate angle="0.197305">
+                                <axis x="-0.0648283" y="0.469606" z="0.880493" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="1.90735e-007" y="-2.38419e-008" z="7.15256e-008" />
+                            <rotate angle="0.166319">
+                                <axis x="-0.0642418" y="0.460211" z="0.885482" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="2.38419e-008" z="7.15256e-008" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R Forearm">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="-2.38419e-008" z="9.53674e-008" />
+                            <rotate angle="0.247005">
+                                <axis x="2.78063e-007" y="4.26617e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0" y="0" z="1.90735e-007" />
+                            <rotate angle="0.307587">
+                                <axis x="7.69029e-008" y="9.84357e-008" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="1.90735e-007" y="0" z="9.53674e-008" />
+                            <rotate angle="0.243218">
+                                <axis x="7.54099e-008" y="5.56873e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0" y="3.57628e-008" z="0" />
+                            <rotate angle="0.177058">
+                                <axis x="2.11503e-007" y="-0" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="9.53674e-008" y="1.19209e-008" z="1.90735e-007" />
+                            <rotate angle="0.111819">
+                                <axis x="1.83616e-007" y="8.01234e-007" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-9.53674e-008" y="4.76837e-008" z="9.53674e-008" />
+                            <rotate angle="0.0651843">
+                                <axis x="8.57855e-007" y="1.14381e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="9.53674e-008" y="-2.38419e-008" z="9.53674e-008" />
+                            <rotate angle="0.0426912">
+                                <axis x="4.36447e-007" y="3.14242e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="3.57628e-008" z="2.86102e-007" />
+                            <rotate angle="0.0332609">
+                                <axis x="2.5766e-006" y="4.92914e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-1.90735e-007" y="-1.19209e-008" z="9.53674e-008" />
+                            <rotate angle="0.0296531">
+                                <axis x="4.08368e-006" y="-4.02085e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-9.53674e-008" y="-1.19209e-008" z="9.53674e-008" />
+                            <rotate angle="0.0246281">
+                                <axis x="1.21028e-006" y="1.21028e-006" z="-1" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R Hand">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0" y="-1.19209e-008" z="0" />
+                            <rotate angle="0.0754404">
+                                <axis x="-0.0620041" y="-0.997324" z="0.0387256" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-1.90735e-007" y="-2.38419e-008" z="0" />
+                            <rotate angle="0.101941">
+                                <axis x="-6.22316e-007" y="-1" z="-0.000796708" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="9.53674e-008" y="0" z="0" />
+                            <rotate angle="0.135028">
+                                <axis x="0.212623" y="-0.963687" z="-0.161554" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="1.90735e-007" y="9.53674e-008" z="0" />
+                            <rotate angle="0.150188">
+                                <axis x="0.312001" y="-0.920898" z="-0.23367" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0" y="2.38419e-008" z="0" />
+                            <rotate angle="0.163286">
+                                <axis x="0.402942" y="-0.869595" z="-0.285379" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0" y="2.38419e-008" z="0" />
+                            <rotate angle="0.172629">
+                                <axis x="0.487805" y="-0.815455" z="-0.311575" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="9.53674e-008" y="9.53674e-008" z="9.53674e-008" />
+                            <rotate angle="0.178014">
+                                <axis x="0.606107" y="-0.73318" z="-0.308351" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0.18287">
+                                <axis x="0.743189" y="-0.607688" z="-0.279973" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="9.53674e-008" y="-4.76837e-008" z="-9.53674e-008" />
+                            <rotate angle="0.185453">
+                                <axis x="0.845695" y="-0.47595" z="-0.241395" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="9.53674e-008" y="2.38419e-008" z="0" />
+                            <rotate angle="0.177123">
+                                <axis x="0.899419" y="-0.381845" z="-0.212695" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R Thigh">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0.0638494" y="-0.0159969" z="-0.0192444" />
+                            <rotate angle="0.413126">
+                                <axis x="0.089252" y="-0.993354" z="-0.0726782" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0.0677146" y="-0.0145893" z="-0.0224079" />
+                            <rotate angle="0.442094">
+                                <axis x="0.0354207" y="-0.971854" z="0.232906" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0.0567526" y="-0.00971849" z="-0.0263234" />
+                            <rotate angle="0.508925">
+                                <axis x="-0.0559732" y="-0.701726" z="0.710244" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0.0556103" y="-0.00748806" z="-0.0289769" />
+                            <rotate angle="0.524639">
+                                <axis x="-0.0862674" y="-0.719119" z="0.689511" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0.0552485" y="-0.00500176" z="-0.0320889" />
+                            <rotate angle="0.525337">
+                                <axis x="-0.118558" y="-0.79296" z="0.597628" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0.0546652" y="-0.00265303" z="-0.0348097" />
+                            <rotate angle="0.519035">
+                                <axis x="-0.144984" y="-0.870408" z="0.470499" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0.0528429" y="-0.000866699" z="-0.0363348" />
+                            <rotate angle="0.505566">
+                                <axis x="-0.1624" y="-0.91024" z="0.380907" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.0487823" y="-4.0102e-005" z="-0.0358392" />
+                            <rotate angle="0.473282">
+                                <axis x="-0.17237" y="-0.918592" z="0.355636" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.0423066" y="-0.000145793" z="-0.0330066" />
+                            <rotate angle="0.418332">
+                                <axis x="-0.174639" y="-0.92022" z="0.35028" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0.0343195" y="-0.000661111" z="-0.028333" />
+                            <rotate angle="0.347006">
+                                <axis x="-0.172251" y="-0.917388" z="0.358788" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 R UpperArm">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-4.76837e-008" y="1.19209e-008" z="1.90735e-007" />
+                            <rotate angle="0.127295">
+                                <axis x="-0.209686" y="0.905803" z="0.368174" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="9.53674e-008" y="1.19209e-008" z="1.90735e-007" />
+                            <rotate angle="0.258959">
+                                <axis x="-0.398885" y="0.84233" z="0.362452" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-4.76837e-008" y="5.96046e-008" z="0" />
+                            <rotate angle="0.495156">
+                                <axis x="-0.46808" y="0.845034" z="0.258494" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="1.43051e-007" y="5.96046e-008" z="1.90735e-007" />
+                            <rotate angle="0.518066">
+                                <axis x="-0.384306" y="0.904856" z="0.183154" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-1.43051e-007" y="1.19209e-008" z="9.53674e-008" />
+                            <rotate angle="0.527064">
+                                <axis x="-0.269127" y="0.957023" z="0.108063" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-1.43051e-007" y="5.96046e-008" z="0" />
+                            <rotate angle="0.52593">
+                                <axis x="-0.143284" y="0.988198" z="0.054165" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="4.76837e-008" y="1.19209e-008" z="1.90735e-007" />
+                            <rotate angle="0.512251">
+                                <axis x="-0.0191789" y="0.999138" z="0.0368185" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-4.76837e-008" y="-3.57628e-008" z="0" />
+                            <rotate angle="0.483376">
+                                <axis x="0.0907125" y="0.994711" z="0.0481725" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="4.76837e-008" y="5.96046e-008" z="3.8147e-007" />
+                            <rotate angle="0.435349">
+                                <axis x="0.183432" y="0.980129" z="0.0755009" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="4.76837e-008" y="3.57628e-008" z="1.90735e-007" />
+                            <rotate angle="0.369909">
+                                <axis x="0.268654" y="0.957848" z="0.101746" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Spine">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-8.4877e-005" y="3.07083e-005" z="1.12653e-005" />
+                            <rotate angle="0.417162">
+                                <axis x="-0.180285" y="0.374558" z="-0.909507" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-8.59261e-005" y="2.98858e-005" z="1.49965e-005" />
+                            <rotate angle="0.43862">
+                                <axis x="-0.193228" y="0.445681" z="-0.874089" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-6.50406e-005" y="1.62959e-005" z="1.69277e-005" />
+                            <rotate angle="0.377251">
+                                <axis x="-0.236402" y="0.627921" z="-0.741505" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-6.1512e-005" y="1.32918e-005" z="2.02656e-005" />
+                            <rotate angle="0.376797">
+                                <axis x="-0.272142" y="0.666131" z="-0.694412" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-5.92232e-005" y="1.06454e-005" z="2.46525e-005" />
+                            <rotate angle="0.38281">
+                                <axis x="-0.315103" y="0.691271" z="-0.650273" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-5.72205e-005" y="8.34465e-006" z="2.87712e-005" />
+                            <rotate angle="0.387634">
+                                <axis x="-0.355965" y="0.70554" z="-0.612782" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-5.45502e-005" y="6.31213e-006" z="3.12626e-005" />
+                            <rotate angle="0.383253">
+                                <axis x="-0.389198" y="0.713156" z="-0.583037" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-5.01633e-005" y="4.52399e-006" z="3.08633e-005" />
+                            <rotate angle="0.36153">
+                                <axis x="-0.411278" y="0.718723" z="-0.560614" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-4.41551e-005" y="2.99811e-006" z="2.74181e-005" />
+                            <rotate angle="0.320196">
+                                <axis x="-0.423124" y="0.72343" z="-0.545541" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-3.68118e-005" y="1.83582e-006" z="2.21968e-005" />
+                            <rotate angle="0.26528">
+                                <axis x="-0.429525" y="0.725881" z="-0.53722" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Spine1">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="8.13484e-005" y="1.15752e-005" z="1.07288e-005" />
+                            <rotate angle="0.309515">
+                                <axis x="-0.308843" y="-0.279133" z="0.909231" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="5.34058e-005" y="2.70605e-006" z="3.59178e-005" />
+                            <rotate angle="0.268502">
+                                <axis x="-0.602182" y="-0.512083" z="0.612494" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-3.43323e-005" y="1.2517e-006" z="7.66397e-005" />
+                            <rotate angle="0.370057">
+                                <axis x="-0.685349" y="-0.57494" z="-0.446923" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-4.65393e-005" y="2.41995e-006" z="7.23481e-005" />
+                            <rotate angle="0.37594">
+                                <axis x="-0.613875" y="-0.564333" z="-0.551984" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-5.22614e-005" y="2.2769e-006" z="6.08921e-005" />
+                            <rotate angle="0.351854">
+                                <axis x="-0.526302" y="-0.569842" z="-0.631099" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-5.30243e-005" y="1.80006e-006" z="4.60923e-005" />
+                            <rotate angle="0.311739">
+                                <axis x="-0.416849" y="-0.582917" z="-0.697456" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-5.13077e-005" y="1.51396e-006" z="3.17574e-005" />
+                            <rotate angle="0.269273">
+                                <axis x="-0.290052" y="-0.593268" z="-0.750935" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-4.8542e-005" y="1.41859e-006" z="2.17199e-005" />
+                            <rotate angle="0.235142">
+                                <axis x="-0.181131" y="-0.589458" z="-0.78723" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-4.35829e-005" y="1.22786e-006" z="1.60694e-005" />
+                            <rotate angle="0.204513">
+                                <axis x="-0.119366" y="-0.57737" z="-0.80771" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-3.64304e-005" y="6.55651e-007" z="1.2064e-005" />
+                            <rotate angle="0.168037">
+                                <axis x="-0.0845455" y="-0.569496" z="-0.817635" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Tail">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="0.0376831" y="0.050847" z="0.0134865" />
+                            <rotate angle="0.446634">
+                                <axis x="0.390588" y="0.401463" z="0.828413" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="0.0363003" y="0.0506626" z="0.0178335" />
+                            <rotate angle="0.479269">
+                                <axis x="0.395508" y="0.389439" z="0.831812" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="0.0245709" y="0.0338932" z="0.0209157" />
+                            <rotate angle="0.419066">
+                                <axis x="0.378937" y="0.383125" z="0.842391" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="0.0222121" y="0.0305975" z="0.0206993" />
+                            <rotate angle="0.414359">
+                                <axis x="0.354759" y="0.403452" z="0.843429" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="0.0205024" y="0.0279959" z="0.0198755" />
+                            <rotate angle="0.403472">
+                                <axis x="0.330187" y="0.485295" z="0.809608" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="0.0191716" y="0.0257198" z="0.0185146" />
+                            <rotate angle="0.38691">
+                                <axis x="0.301571" y="0.614204" z="0.729252" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="0.0178984" y="0.0234027" z="0.016704" />
+                            <rotate angle="0.370012">
+                                <axis x="0.266927" y="0.735728" z="0.622459" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="0.0163067" y="0.0206709" z="0.0145559" />
+                            <rotate angle="0.345758">
+                                <axis x="0.236971" y="0.809111" z="0.537758" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="0.0142933" y="0.0174826" z="0.0121113" />
+                            <rotate angle="0.305743">
+                                <axis x="0.218094" y="0.840555" z="0.495886" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="0.0119989" y="0.0140873" z="0.00945141" />
+                            <rotate angle="0.253329">
+                                <axis x="0.205275" y="0.857623" z="0.471534" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Tail1">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-2.96593e-005" y="-4.19617e-006" z="-7.84993e-006" />
+                            <rotate angle="0.0718094">
+                                <axis x="0.0559809" y="0.455849" z="-0.888295" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-4.64439e-005" y="-5.53131e-006" z="-1.17391e-005" />
+                            <rotate angle="0.111413">
+                                <axis x="0.055436" y="0.454716" z="-0.88891" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-6.69479e-005" y="-6.58035e-006" z="-1.62959e-005" />
+                            <rotate angle="0.161016">
+                                <axis x="0.0578676" y="0.459776" z="-0.886147" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-6.44684e-005" y="-6.67572e-006" z="-1.61171e-005" />
+                            <rotate angle="0.156229">
+                                <axis x="0.0621895" y="0.468739" z="-0.881145" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-3.80516e-005" y="-4.86374e-006" z="-1.11461e-005" />
+                            <rotate angle="0.0959388">
+                                <axis x="0.0842571" y="0.51384" z="-0.853738" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="9.44138e-006" y="1.90735e-006" z="-2.14577e-007" />
+                            <rotate angle="0.0205891">
+                                <axis x="0.221846" y="0.212349" z="0.951679" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="5.5027e-005" y="1.32561e-005" z="1.2815e-005" />
+                            <rotate angle="0.126918">
+                                <axis x="0.0065307" y="-0.321328" z="0.946945" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="7.84874e-005" y="2.12669e-005" z="2.05994e-005" />
+                            <rotate angle="0.18517">
+                                <axis x="-0.00780488" y="-0.352933" z="0.935616" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="7.86781e-005" y="2.11716e-005" z="2.10285e-005" />
+                            <rotate angle="0.18649">
+                                <axis x="-0.010993" y="-0.359901" z="0.932926" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="6.96182e-005" y="1.81198e-005" z="1.84476e-005" />
+                            <rotate angle="0.164643">
+                                <axis x="-0.0124296" y="-0.363034" z="0.931693" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Tail2">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="1.14441e-005" y="2.09808e-006" z="-2.7591e-005" />
+                            <rotate angle="0.114561">
+                                <axis x="0.5785" y="0.808122" z="0.110797" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="1.68324e-005" y="3.8147e-006" z="-4.27186e-005" />
+                            <rotate angle="0.175709">
+                                <axis x="0.57868" y="0.807651" z="0.113267" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="2.141e-005" y="6.48499e-006" z="-6.60121e-005" />
+                            <rotate angle="0.267076">
+                                <axis x="0.577876" y="0.809647" z="0.102622" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="2.00748e-005" y="6.48499e-006" z="-6.99222e-005" />
+                            <rotate angle="0.281897">
+                                <axis x="0.576492" y="0.812558" z="0.0860618" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="1.28269e-005" y="3.71933e-006" z="-6.09696e-005" />
+                            <rotate angle="0.24506">
+                                <axis x="0.570693" y="0.820589" z="0.0307074" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-1.43051e-006" y="-1.33514e-006" z="-4.05252e-005" />
+                            <rotate angle="0.162928">
+                                <axis x="0.543613" y="0.829139" z="-0.130435" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-1.72615e-005" y="-4.86374e-006" z="-1.93536e-005" />
+                            <rotate angle="0.0863566">
+                                <axis x="0.385072" y="0.728383" z="-0.566726" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-2.64168e-005" y="-6.38962e-006" z="-6.31213e-006" />
+                            <rotate angle="0.0647512">
+                                <axis x="-0.0230053" y="0.254094" z="-0.966906" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-2.70367e-005" y="-6.00815e-006" z="-1.44839e-006" />
+                            <rotate angle="0.0623803">
+                                <axis x="-0.203609" y="-0.00487895" z="-0.97904" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-2.39849e-005" y="-5.34058e-006" z="5.78165e-007" />
+                            <rotate angle="0.0558241">
+                                <axis x="-0.280558" y="-0.124893" z="-0.951677" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Tail3">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-2.14577e-006" y="-8.58307e-007" z="-1.24753e-005" />
+                            <rotate angle="0.159914">
+                                <axis x="0.351923" y="0.92716" z="-0.128549" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-4.14848e-006" y="-1.23978e-006" z="-1.90377e-005" />
+                            <rotate angle="0.24493">
+                                <axis x="0.351809" y="0.927449" z="-0.12676" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-8.72612e-006" y="-1.71661e-006" z="-2.85238e-005" />
+                            <rotate angle="0.37451">
+                                <axis x="0.35229" y="0.926183" z="-0.13445" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-1.05858e-005" y="-2.09808e-006" z="-3.03209e-005" />
+                            <rotate angle="0.398896">
+                                <axis x="0.352983" y="0.924141" z="-0.14617" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-1.16825e-005" y="-2.28882e-006" z="-2.76625e-005" />
+                            <rotate angle="0.35685">
+                                <axis x="0.354866" y="0.916711" z="-0.183606" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-1.23501e-005" y="-2.76566e-006" z="-2.10404e-005" />
+                            <rotate angle="0.254262">
+                                <axis x="0.357338" y="0.890844" z="-0.280546" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-1.3113e-005" y="-3.05176e-006" z="-1.36018e-005" />
+                            <rotate angle="0.146233">
+                                <axis x="0.348243" y="0.790474" z="-0.503862" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-1.32084e-005" y="-3.24249e-006" z="-8.38041e-006" />
+                            <rotate angle="0.0864808">
+                                <axis x="0.281315" y="0.499533" z="-0.819347" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-1.19686e-005" y="-2.86102e-006" z="-5.9247e-006" />
+                            <rotate angle="0.066341">
+                                <axis x="0.200537" y="0.232123" z="-0.95179" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-1.02043e-005" y="-2.67029e-006" z="-4.22001e-006" />
+                            <rotate angle="0.053038">
+                                <axis x="0.137585" y="0.0458294" z="-0.989429" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="Bip01 Tail4">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.0666667">
+                            <translate x="-8.2016e-006" y="-2.28882e-006" z="-1.13904e-005" />
+                            <rotate angle="0.11746">
+                                <axis x="0.334749" y="0.893153" z="-0.300367" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.1">
+                            <translate x="-1.297e-005" y="-3.43323e-006" z="-1.69992e-005" />
+                            <rotate angle="0.179798">
+                                <axis x="0.335285" y="0.893964" z="-0.297342" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.166667">
+                            <translate x="-2.21252e-005" y="-5.05447e-006" z="-2.5177e-005" />
+                            <rotate angle="0.275634">
+                                <axis x="0.332963" y="0.890434" z="-0.310264" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.2">
+                            <translate x="-2.56538e-005" y="-5.91278e-006" z="-2.64287e-005" />
+                            <rotate angle="0.294818">
+                                <axis x="0.329316" y="0.884751" z="-0.329797" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.233333">
+                            <translate x="-2.71797e-005" y="-6.77109e-006" z="-2.35438e-005" />
+                            <rotate angle="0.267788">
+                                <axis x="0.316922" y="0.864403" z="-0.390343" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.266667">
+                            <translate x="-2.6989e-005" y="-7.53403e-006" z="-1.68741e-005" />
+                            <rotate angle="0.20071">
+                                <axis x="0.28064" y="0.798597" z="-0.532433" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.3">
+                            <translate x="-2.63214e-005" y="-7.9155e-006" z="-9.53674e-006" />
+                            <rotate angle="0.134851">
+                                <axis x="0.187137" y="0.606641" z="-0.772636" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.333333">
+                            <translate x="-2.46048e-005" y="-7.82013e-006" z="-4.66108e-006" />
+                            <rotate angle="0.101569">
+                                <axis x="0.0526498" y="0.301092" z="-0.952141" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.366667">
+                            <translate x="-2.19345e-005" y="-7.05719e-006" z="-2.58684e-006" />
+                            <rotate angle="0.0857051">
+                                <axis x="-0.0194273" y="0.127276" z="-0.991677" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.4">
+                            <translate x="-1.81198e-005" y="-5.72205e-006" z="-1.34706e-006" />
+                            <rotate angle="0.070255">
+                                <axis x="-0.0607855" y="0.0246083" z="-0.997847" />
+                            </rotate>
+                        </keyframe>
+                        <keyframe time="0.533333">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="-0" y="-1" z="-0" />
+                            </rotate>
+                        </keyframe>
+                    </keyframes>
+                </track>
+            </tracks>
+        </animation>
+    </animations>
+</skeleton>

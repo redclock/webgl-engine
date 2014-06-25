@@ -1,0 +1,18 @@
+#ifndef _BLUR_RADIUS_
+#define _BLUR_RADIUS_ 2
+#endif
+
+uniform sampler2D DiffuseMap;
+uniform mediump vec2 offset;
+
+varying mediump vec2 vTexcoord;
+void main(void)
+{
+    lowp vec4 color = vec4(0.0);
+    for (int i = -_BLUR_RADIUS_ + 1; i < _BLUR_RADIUS_; i++)
+    {
+        color += texture2D(DiffuseMap, vTexcoord + offset * float(i));
+    }
+    color /= float(2 * _BLUR_RADIUS_ - 1);
+    gl_FragColor = color;
+}

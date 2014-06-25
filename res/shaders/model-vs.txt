@@ -1,0 +1,78 @@
+#include "sh-light.txt"
+
+attribute highp vec3 aPosition;
+attribute vec3 aNormal;
+attribute vec2 aTexcoord;
+
+uniform highp mat4 matWorld;
+uniform highp mat4 matViewProj;
+
+varying mediump vec3 vNormal;
+varying mediump vec2 vTexcoord;
+varying mediump vec4 vColor;
+
+#ifdef _SKIN_
+
+attribute highp vec3 aBlendWeights;
+attribute vec4 aBlendIndices;
+
+uniform highp vec4 matBlend[35 * 3];
+
+highp vec4 blendPos(float index, highp vec4 pos)
+{
+    int index3 = int(index * 3.0);
+    highp vec4 result;
+    result.x = dot(matBlend[index3 + 0], pos);
+    result.y = dot(matBlend[index3 + 1], pos);
+    result.z = dot(matBlend[index3 + 2], pos);
+    result.w = 1.0;
+    return result;
+}
+
+mediump vec4 blendNorm(float index, mediump vec4 norm)
+{
+    int index3 = int(index * 3.0);
+    mediump vec4 result;
+    result.x = dot(matBlend[index3 + 0], norm);
+    result.y = dot(matBlend[index3 + 1], norm);
+    result.z = dot(matBlend[index3 + 2], norm);
+    result.w = 0.0;
+    return result;
+}
+
+#endif
+
+vec3 getLight1(vec3 normal)
+{
+    vec3 lightDir = normalize(vec3(0.6, 1.0, 0.4));
+    float nd = max(dot(lightDir, normal), 0.0);
+    float nd2 = max(-dot(lightDir, normal), 0.0);
+    float l = nd + nd2 * 0.2 + 0.3;
+    return vec3(l, l, l);
+}
+
+void main(void)
+{
+    highp vec4 pos = vec4(aPosition, 1.0);
+    mediump vec4 norm = vec4(aNormal, 0.0);
+
+#ifdef _SKIN_
+
+    float w = 1.0 - aBlendWeights.x - aBlendWeights.y - aBlendWeights.z;
+    pos = blendPos(aBlendIndices.x, pos) * aBlendWeights.x +
+          blendPos(aBlendIndices.y, pos) * aBlendWeights.y +
+          blendPos(aBlendIndices.z, pos) * aBlendWeights.z +
+          blendPos(aBlendIndices.w, pos) * w;
+
+    norm = blendNorm(aBlendIndices.x, norm) * aBlendWeights.x +
+           blendNorm(aBlendIndices.y, norm) * aBlendWeights.y +
+           blendNorm(aBlendIndices.z, norm) * aBlendWeights.z +
+           blendNorm(aBlendIndices.w, norm) * w;
+#endif
+
+    gl_Position = matViewProj * matWorld * pos;
+    vNormal = (matWorld * norm).xyz;
+
+    vTexcoord = aTexcoord;
+    vColor = vec4(getLight(vNormal), 1);
+}

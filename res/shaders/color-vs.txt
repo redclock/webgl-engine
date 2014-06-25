@@ -1,0 +1,12 @@
+attribute highp vec3 aPosition;
+attribute lowp vec4 aColor;
+
+uniform highp mat4 matVP;
+
+varying lowp vec4 vColor;
+
+void main(void)
+{
+    gl_Position = matVP * vec4(aPosition, 1.0);
+    vColor = aColor;
+}

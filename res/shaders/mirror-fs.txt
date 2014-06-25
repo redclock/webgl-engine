@@ -1,0 +1,51 @@
+uniform sampler2D DiffuseMap;
+uniform sampler2D NormalMap;
+uniform sampler2D DetailNormalMap;
+uniform sampler2D RefractMap;
+uniform highp vec3 detailParam;
+
+varying mediump vec2 vTexcoord;
+varying mediump vec3 vCameraDir;
+varying mediump vec3 vLightDir;
+varying mediump vec4 vReflectTexcoord;
+varying mediump vec4 vRefractTexcoord;
+
+mediump float fresnel(mediump float NdotV)
+{
+    mediump float theta1 = max(NdotV, 0.0);
+    return 1.0 * (1.0 - theta1);
+}
+
+void main(void)
+{
+    mediump vec3 normal = texture2D(NormalMap, vTexcoord * 1.0).xyz;
+    mediump vec3 normalDetail = texture2D(DetailNormalMap, (vTexcoord + detailParam.xy) * detailParam.z).xyz;
+
+    normal.xy = (normal.xy - (normalDetail.xy - 0.5) * 0.05) * 2.0 - 1.0;
+    normal.z = normal.z * 2.0 - 1.0;
+    normal = normalize(normal);
+    //gl_FragColor = vec4(normal, 1.0);
+    //return;
+
+
+    mediump vec3 cameraDir = normalize(vCameraDir);
+    mediump float f = fresnel(dot(normal,cameraDir));
+    mediump vec3 lightDir = normalize(vLightDir);
+    mediump vec3 reflectDir = reflect(-cameraDir, normal);
+    //mediump float nd2 = max(0.0, dot(reflectDir, lightDir));
+    //mediump float spec = pow(nd2, 140.0) * 1.0;
+
+
+    mediump vec2 texReflect = vec2((1.0 + vReflectTexcoord.xy / vReflectTexcoord.w) * 0.5);
+    lowp vec4 texReflectColor =  texture2D(DiffuseMap, texReflect - normal.xy * 0.7);
+    texReflectColor.a *= 0.8;
+    //texReflectColor.rgb *= 0.5;
+    //mediump vec2 texRefract = vec2((1.0 + vRefractTexcoord.xy / vRefractTexcoord.w) * 0.5);
+    lowp vec4 texRefractColor;// =  texture2D(RefractMap, texRefract + normal.xy * 0.8);
+
+    texRefractColor = vec4(0.5, 1.3, 0.8, 0.5);//mix(texRefractColor, vec4(1.1, 0.3, 0.1, 0.5), 1.0);
+    //texReflectColor.rgb = pow(texReflectColor.rgb, vec3(1.0)) * 1.0;
+    gl_FragColor = mix(texRefractColor, texReflectColor, min(1.0, f + 0.3));
+    //gl_FragColor.rgb += vec3(spec);
+
+}
