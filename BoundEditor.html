@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title> Bounding Sphere Editor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script type="text/javascript" src="src/engine/common/common.js"></script>
+    <script type="text/javascript" src="src/phymaterial.js"></script>
+    <script type="text/javascript" src="src/3rd/jquery-1.10.1.js"></script>
+</head>
+<body onload="onloadBody()">
+
+<div class="topBar">
+      FPS
+      <label id="fps" style="width:300px"> </label>
+    <input type="checkbox" checked="checked" name="control" onchange="game.showModel = this.checked"> Show Model </input>
+    <input type="checkbox" checked="checked" name="control" onchange="game.showSphere = this.checked">Show Sphere</input>
+    <input type="checkbox" checked="checked" name="control" onchange="game.showAABB = this.checked">Show AABB</input>
+    <input type="checkbox" checked="checked" name="control" onchange="game.showPlane = this.checked">Show Ground</input>
+</div>
+
+<div class="leftBar" style="float: left;">
+
+    <div class="grid">
+        <div class="gridHeader" onclick="game.foldGrid(this);">
+            File
+        </div>
+        <div class="gridContent">
+            <div class="itemLabel" style="padding-top: 7px;">File Name</div>
+            <div class="itemContent">
+                <input id="filename" type="text"/>
+            </div>
+            <button type="button" value="save" onclick="game.save()">Save</button>
+            <button type="button" value="load" onclick="game.load()">Load</button>
+        </div>
+
+    </div>
+
+    <br>
+    <div class="grid">
+        <div class="gridHeader" onclick="game.foldGrid(this);">
+            Model
+        </div>
+        <div class="gridContent">
+            <div class="itemLabel" style="padding-top: 7px;">Model Name</div>
+            <div class="itemContent">
+                <input id="modelname" type="text"/>
+            </div>
+
+            <div class="itemLabel"></div>
+            <div class="itemContent">
+                <button type="button" value="load" onclick="game.loadMesh(modelNameInput.value)">load</button>
+            </div>
+
+            <div class="itemLabel">AABB min</div>
+            <div class="itemContent" id="aabbmin">1</div>
+
+            <div class="itemLabel">AABB max</div>
+            <div class="itemContent" id="aabbmax">2</div>
+
+            <div class="itemLabel">AABB center</div>
+            <div class="itemContent" id="aabbcenter">3</div>
+
+            <div class="itemLabel">AABB extend</div>
+            <div class="itemContent" id="aabbextend">4</div>
+
+
+            <div class="itemLabel">Move speed</div>
+            <div class="itemcontent">
+                <input type="range" value="10" min="0" max="100" onchange="$('#speedLabel').text(this.value)" />
+                <label id="speedLabel">0</label>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <div class="grid">
+        <div class="gridHeader" onclick="game.foldGrid(this);">
+            Bounding Sphere
+        </div>
+        <div class="gridContent">
+            <div>
+                <button type="button" value="add" onclick="game.addSphere()">Add</button>
+                <button type="button" value="remove" onclick="">Remove</button>
+                <button type="button" value="clear" onclick="">Clear</button>
+            </div>
+
+            <div class="itemLabel">Count</div>
+            <div id="sphereCount"  class="itemContent">0</div>
+            <div class="itemLabel" style="padding-top: 7px;">Current</div>
+            <div class="itemContent">
+                <select id="currentIndex" onclick="" style="width: 100px;" onchange="game.setSelected(this.selectedIndex)">
+                </select>
+            </div>
+            <div class="itemLabel">X</div>
+            <div class="itemContent">
+                <input id="sphereX" type="range" value="1" min="0" max="3.12" step="0.01"
+                        onchange="game.onSliderChange(this.id, this.value)"/>
+                <label id="sphereXLabel">0</label>
+
+            </div>
+            <div class="itemLabel">Y</div>
+            <div class="itemContent">
+                <input id="sphereY" type="range" value="1" min="0" max="3.12" step="0.01"
+                       onchange="game.onSliderChange(this.id, this.value)"/>
+                <label id="sphereYLabel">0</label>
+            </div>
+            <div class="itemLabel">Z</div>
+            <div class="itemContent">
+                <input id="sphereZ" type="range" value="1" min="0" max="3.12" step="0.01"
+                       onchange="game.onSliderChange(this.id, this.value)"/>
+                <label id="sphereZLabel">0</label>
+            </div>
+            <div class="itemLabel">Radius</div>
+            <div class="itemContent">
+                <input id="sphereR" type="range" value="1" min="0" max="3.12" step="0.01"
+                       onchange="game.onSliderChange(this.id, this.value)"/>
+                <label id="sphereRLabel">0</label>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="canvasArea" >
+    <canvas id="myCanvas" width="820" height="600" style="width: 100%; height:100%;">
+
+        You browser does not support HTML5!
+
+    </canvas>
+</div>
+
+<script type="text/javascript">
+    var canvas = document.getElementById("myCanvas");
+
+    canvas.addEventListener("mousemove",
+            function(event)
+            {
+                event = event || window.event;
+                var pos = mousePosFromEvent(event);
+                if (game.onMouseMove)
+                    game.onMouseMove(pos, event);
+            });
+    canvas.addEventListener("mousedown",
+            function(event)
+            {
+                event = event || window.event;
+                var pos = mousePosFromEvent(event);
+                if (game.onMouseDown)
+                    game.onMouseDown(pos, event);
+            });
+    canvas.addEventListener("mouseup",
+            function(event)
+            {
+                event = event || window.event;
+                var pos = mousePosFromEvent(event);
+                if (game.onMouseUp)
+                    game.onMouseUp(pos, event);
+            });
+
+    setWheelEvent(canvas,
+            function (pos, delta, event)
+            {
+                game.onMouseWheel(pos, delta, event);
+            });
+</script>
+<script type="text/javascript" src="src/3rd/gl-matrix.js">  </script>
+<script type="text/javascript" src="src/3rd/cannon.js">  </script>
+<script type="text/javascript" src="src/engine/math.js"></script>
+<script type="text/javascript" src="src/engine/common/utils.js"></script>
+<script type="text/javascript" src="src/engine/input/keyboard.js">  </script>
+<script type="text/javascript" src="src/engine/renderres.js"></script>
+<script type="text/javascript" src="src/engine/renderres/texture.js"></script>
+<script type="text/javascript" src="src/engine/core/engine.js"></script>
+<script type="text/javascript" src="src/engine/core/camera.js"></script>
+<script type="text/javascript" src="src/engine/file/modelloaderxml.js"></script>
+<script type="text/javascript" src="src/engine/geometry.js"></script>
+<script type="text/javascript" src="src/engine/model/model.js"></script>
+<script type="text/javascript" src="src/engine/skinanim.js"></script>
+<script type="text/javascript" src="src/engine/core/simpledraw.js"></script>
+<script type="text/javascript" src="src/engine/renderres/shader.js"></script>
+<script type="text/javascript" src="src/engine/fileresource.js"></script>
+<script type="text/javascript" src="src/engine/physics/physics.js"></script>
+
+<script type="text/javascript" src="src/boundedior/game.js"></script>
+
+<script type="text/javascript">
+    function onloadBody()
+    {
+        Engine.renderCallback = render;
+        Engine.init("myCanvas");
+        game.init();
+        Engine.mainLoop();
+    }
+
+    function render(deltaTime)
+    {
+        game.render(deltaTime);
+        $("#fps").text(Engine.FPS);
+    }
+
+</script>
+
+</body>
+</html>

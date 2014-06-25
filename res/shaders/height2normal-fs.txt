@@ -1,0 +1,19 @@
+uniform sampler2D DiffuseMap;
+uniform mediump vec2 offset;
+
+varying mediump vec2 vTexcoord;
+
+void main(void)
+{
+   lowp float scale = 1.0;
+   // Sample teh neighbor
+   lowp float s0 = texture2D(DiffuseMap, vTexcoord + vec2(-offset.x, 0.0)).r;
+   lowp float s1 = texture2D(DiffuseMap, vTexcoord + vec2( offset.x, 0.0)).r;
+   lowp float s2 = texture2D(DiffuseMap, vTexcoord + vec2( 0.0, -offset.y)).r;
+   lowp float s3 = texture2D(DiffuseMap, vTexcoord + vec2(0.0, offset.y)).r;
+   mediump vec3 U = vec3(1.0, 0.0, s1 - s0);
+   mediump vec3 V = vec3(0.0, 1.0, s3 - s2);
+   mediump vec3 normal = normalize(scale * cross(U,V));
+   // Pack [-1, 1] into [0, 1]
+   gl_FragColor = vec4(normal * 0.5 + 0.5, 1.0);
+}

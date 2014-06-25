@@ -1,0 +1,26 @@
+uniform sampler2D DiffuseMap;
+uniform sampler2D DiffuseMap2;
+uniform mediump vec2 offset;
+
+varying highp vec2 vTexcoord;
+
+void main(void)
+{
+    mediump float s = texture2D(DiffuseMap2, vTexcoord).r;
+    mediump float s0 = texture2D(DiffuseMap, vTexcoord + vec2(-offset.x, 0.0)).r;
+    mediump float s1 = texture2D(DiffuseMap, vTexcoord + vec2(offset.x, 0.0)).r;
+    mediump float s2 = texture2D(DiffuseMap, vTexcoord + vec2(0.0, offset.y)).r;
+    mediump float s3 = texture2D(DiffuseMap, vTexcoord + vec2(0.0, -offset.y)).r;
+
+    s = (s0 + s1 + s2 + s3) / 2.0 - s;
+    const mediump float m = 127.0 / 255.0;
+
+    s = (s - m) * 0.99;
+
+    //if (abs(s) < 0.04) s *= 0.5;
+
+    s += m;
+
+    gl_FragColor = vec4(s, s, s, 1.0);
+    //gl_FragColor.a = 1.0;
+}

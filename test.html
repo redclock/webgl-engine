@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title> WebGL demo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="src/engine/common/common.js"></script>
+</head>
+
+<body>
+
+<div class="topBar">
+    <a href="index.html"> back </a>
+    <label id="fps" >
+        FPS
+    </label>
+    <input type="button" width="100" value="PAUSE/START" onclick="engine.paused = !engine.paused;"/>
+    <input type="checkbox" onclick="game.ui.showProfile(!!this.checked);"/> Show Profile
+</div>
+
+<div class="canvasArea" >
+    <canvas id="myCanvas" width="1000" height="1000" style="float: left; background: black; width: 100%; height:100%;">
+
+        You browser does not support HTML5!
+
+    </canvas>
+    <div id="fire1" class="ui_button" style="position: absolute; left:500px; top:630px; font-size: 22pt; opacity: 0.5; color: #0000ff"> A </div>
+    <div id="fire2" class="ui_button" style="position: absolute; left:600px; top:630px; font-size: 22pt; opacity: 0.5; color: #0000ff"> B </div>
+
+    <div id="profileGrid"  class="grid" style="width: 200px; position: absolute; left:10px; top:10px;color: #FFFFFF;display: none;">
+        <div class="gridHeader">
+            Profile
+        </div>
+        <div id="profile"  class="gridContent">
+        </div>
+
+    </div>
+</div>
+
+<div class="leftBar" style="float: left;">
+
+    <div id="agent" >
+        Angent
+    </div>
+    <div>
+        <input type="radio" checked="checked" name="control" onchange="if (this.checked) game.controlType = 0"/>
+        Control camera
+        <input type="radio" name="control" onchange="if (this.checked) game.controlType = 1"/>
+        Control actor
+    </div>
+    <label>Move speed</label>
+    <input type="range" value="10" min="0" max="100" onchange="document.getElementById('speedLabel').innerHTML = this.value" />
+    <label id="speedLabel">0</label>
+
+    <div class="grid">
+        <div class="gridHeader">
+            Render Statistics
+        </div>
+        <div class="gridContent">
+            <div class="itemLabel">Mesh</div>
+            <div id="meshcount" class="itemContent"></div>
+            <div class="itemLabel">Triangle</div>
+            <div id="trianglecount" class="itemContent"></div>
+            <div class="itemLabel">Draw call</div>
+            <div id="drawcount" class="itemContent"></div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.getElementById("agent").innerHTML = navigator.userAgent;
+</script>
+
+<script type="text/javascript" src="src/3rd/gl-matrix.js">  </script>
+<script type="text/javascript" src="src/3rd/cannon.js">  </script>
+
+<script src="src/3rd/require.js"></script>
+<script>
+    require.config({
+        paths: {
+            //Comment out this line to go back to loading
+            //the non-optimized main.js source file.
+            //"main": "main-built"
+        }
+    });
+
+    require(["main"]);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="Body">
+            <position x="0.00137418" y="-3.91525e-009" z="-4.71924e-008" />
+            <rotation angle="1.5708">
+                <axis x="4.23195e-007" y="2.89084e-007" z="1" />
+            </rotation>
+        </bone>
+        <bone id="1" name="L Tooth">
+            <position x="0.400035" y="-0.112131" z="-0.391494" />
+            <rotation angle="3.07226">
+                <axis x="0.0224394" y="0.107752" z="-0.993925" />
+            </rotation>
+        </bone>
+        <bone id="2" name="Left Handle">
+            <position x="0.414462" y="0.0554179" z="-0.523339" />
+            <rotation angle="3.26206">
+                <axis x="0.060304" y="-0.70582" z="-0.70582" />
+            </rotation>
+        </bone>
+        <bone id="3" name="Lid">
+            <position x="0.478634" y="0.458016" z="-2.53097e-007" />
+            <rotation angle="1.5708">
+                <axis x="-3.03986e-007" y="-1.84776e-007" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="4" name="Lock">
+            <position x="0.448022" y="-0.459919" z="0.0134835" />
+            <rotation angle="3.08343">
+                <axis x="-0.0489954" y="-0.00142742" z="-0.998798" />
+            </rotation>
+        </bone>
+        <bone id="5" name="R Handle">
+            <position x="0.416303" y="0.0585204" z="0.551095" />
+            <rotation angle="3.2091">
+                <axis x="-0.0337662" y="0.706703" z="-0.706704" />
+            </rotation>
+        </bone>
+        <bone id="6" name="R Tooth">
+            <position x="0.400036" y="-0.11213" z="0.419126" />
+            <rotation angle="0.456246">
+                <axis x="-0.994323" y="0.00139371" z="0.106393" />
+            </rotation>
+        </bone>
+        <bone id="7" name="Tongue">
+            <position x="0.500747" y="-0.115185" z="-0.00422648" />
+            <rotation angle="1.5708">
+                <axis x="2.38419e-007" y="1" z="-2.38419e-007" />
+            </rotation>
+        </bone>
+        <bone id="8" name="Tongue 1">
+            <position x="-0.00422637" y="0.00499927" z="0.00976982" />
+            <rotation angle="4.15126">
+                <axis x="0.589339" y="0.552593" z="-0.589339" />
+            </rotation>
+        </bone>
+        <bone id="9" name="Tongue 2">
+            <position x="0.257405" y="4.76837e-008" z="-2.88115e-008" />
+            <rotation angle="0.968903">
+                <axis x="-4.13701e-008" y="3.3424e-008" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="10" name="Tongue 3">
+            <position x="0.27692" y="-5.96046e-008" z="7.12725e-008" />
+            <rotation angle="2.17296">
+                <axis x="-2.68163e-007" y="-1.55835e-007" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="11" name="Tongue 4">
+            <position x="0.226396" y="9.53674e-008" z="-5.17979e-008" />
+            <rotation angle="0.692257">
+                <axis x="1.0153e-007" y="3.3719e-007" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="12" name="gold">
+            <position x="0.361511" y="0.070063" z="-0.00422649" />
+            <rotation angle="2.0944">
+                <axis x="0.577351" y="0.57735" z="-0.57735" />
+            </rotation>
+        </bone>
+        <bone id="13" name="root">
+            <position x="-6.85748e-008" y="3.61729e-009" z="0.000246084" />
+            <rotation angle="1.5708">
+                <axis x="-0" y="-1" z="-0" />
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="Body" parent="root" />
+        <boneparent bone="L Tooth" parent="Body" />
+        <boneparent bone="Left Handle" parent="Body" />
+        <boneparent bone="Lid" parent="Body" />
+        <boneparent bone="Lock" parent="Body" />
+        <boneparent bone="R Handle" parent="Body" />
+        <boneparent bone="R Tooth" parent="Body" />
+        <boneparent bone="Tongue" parent="Body" />
+        <boneparent bone="Tongue 1" parent="Tongue" />
+        <boneparent bone="Tongue 2" parent="Tongue 1" />
+        <boneparent bone="Tongue 3" parent="Tongue 2" />
+        <boneparent bone="Tongue 4" parent="Tongue 3" />
+        <boneparent bone="gold" parent="Body" />
+    </bonehierarchy>
+    <animations>
+        <animation name="Asleep" length="0.133333">
+            <tracks />
+        </animation>
+    </animations>
+</skeleton>
