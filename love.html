@@ -63,11 +63,11 @@
         var my_gradient  = a.createLinearGradient(-100,60,2800,120);
         brightx += 0.001;
         brightx %= 0.9;
-        my_gradient.addColorStop(0,"#b30");    //定义黄色渐变色
+        my_gradient.addColorStop(0,"#bb3300");    //定义黄色渐变色
         if (brightx < 1)
         {
-            my_gradient.addColorStop(brightx,"#fff");    //定义红色渐变色
-            my_gradient.addColorStop(brightx + 0.01,"#b30");    //定义红色渐变色
+            my_gradient.addColorStop(brightx,"#ffffff");    //定义红色渐变色
+            my_gradient.addColorStop(brightx + 0.01,"#bb3300");    //定义红色渐变色
         }
         a.fillStyle = my_gradient;
         //a.fillStyle = "#00ff00";
