@@ -160,6 +160,23 @@
 
     CellMap.prototype.start = function()
     {
+
+        this.createMap(5, 5);
+        this.cells[0][0].setPoint(0);
+        this.cells[3][2].setPoint(0);
+
+        this.cells[1][2].setPoint(1);
+        this.cells[1][4].setPoint(1);
+
+        this.cells[1][0].setPoint(2);
+        this.cells[4][0].setPoint(2);
+
+        this.cells[1][3].setPoint(3);
+        this.cells[4][4].setPoint(3);
+
+        this.cells[3][1].setPoint(4);
+        this.cells[3][3].setPoint(4);
+
         var that = this;
 
         this.addEventListener(LMouseEvent.MOUSE_DOWN, function(event) {
@@ -182,8 +199,21 @@
         this.die();
     };
 
+    CellMap.prototype.isFinish = function()
+    {
+        var finish = true;
+        this.eachCell(function(cell){
+            if (cell.lineType < 0)
+                finish = false;
+        });
+        return finish;
+    }
+
     CellMap.prototype.onMouseDown = function(x, y)
     {
+        if (gameState !== STATE_GAME)
+            return;
+
         var curCell = null;
 
         this.eachCell(function(cell) {
@@ -232,8 +262,19 @@
 
     CellMap.prototype.onMouseUp = function(x, y)
     {
+        if (gameState !== STATE_GAME)
+            return;
+
         this.curCell = null;
         this.drawMap();
+        if (this.isFinish())
+        {
+            gameState = STATE_RESULT;
+            var pannel = new ResultPanel();
+            pannel.success = true;
+            pannel.show();
+
+        }
     };
 
     CellMap.prototype.onMouseMove = function(x, y)

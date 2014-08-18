@@ -62,11 +62,11 @@ ResultPanel.prototype.show = function()
 {
     if (this.success)
     {
-        this.label.text = "你抓住了小女孩！";
+        this.label.text = "成功了！";
     }
     else
     {
-        this.label.text = "小女孩逃走了！";
+        this.label.text = "失败了！";
     }
     this.label.x = (500 - this.label.getWidth()) / 2;
     this.x = 70;

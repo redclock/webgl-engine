@@ -83,7 +83,7 @@ function gameInit(result){
     backLayer.addChild(stepText);
 
     titleText = new LTextField();
-    titleText.text = "抓住小女孩 ⊙﹏⊙";
+    titleText.text = "Draw Lines ⊙﹏⊙";
     titleText.x = 100;
     titleText.y = 20;
     titleText.size = 40;
@@ -98,21 +98,6 @@ function gameMainScene(){
     gameState = STATE_GAME;
     mapLayer = new CellMap();
 
-    mapLayer.createMap(5, 5);
-    mapLayer.cells[0][0].setPoint(0);
-    mapLayer.cells[3][2].setPoint(0);
-
-    mapLayer.cells[1][2].setPoint(1);
-    mapLayer.cells[1][4].setPoint(1);
-
-    mapLayer.cells[1][0].setPoint(2);
-    mapLayer.cells[4][0].setPoint(2);
-
-    mapLayer.cells[1][3].setPoint(3);
-    mapLayer.cells[4][4].setPoint(3);
-
-    mapLayer.cells[3][1].setPoint(4);
-    mapLayer.cells[3][3].setPoint(4);
 
     mapLayer.start();
 	backLayer.addChild(mapLayer);
