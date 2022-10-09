@@ -47,10 +47,12 @@ define(
             try
             {
                 ui.init(game);
-                Engine.renderCallback = render;
-                Engine.init("myCanvas");
-                game.init();
-                Engine.mainLoop();
+                game.preload(function(){
+                    Engine.renderCallback = render;
+                    Engine.init("myCanvas");
+                    game.init();
+                    Engine.mainLoop();
+                });
             }
             catch(e)
             {
@@ -834,7 +836,44 @@ define(
            //console.log(engine.statistics);
         };
 
+        game.preload = function(onCompleted) {
+            var files = [
+                "res/shaders/color-vs.txt",
+                "res/shaders/color-fs.txt",
+                "res/shaders/texture-vs.txt",
+                "res/shaders/texture-fs.txt",
+                "res/shaders/particle-vs.txt",
+                "res/shaders/particle-fs.txt",
+                "res/shaders/model-vs.txt",
+                "res/shaders/sh-light.txt",
+                "res/shaders/color_texture-fs.txt",
+                "res/models/Zealot/Zealot.SKELETON.xml",
+                "res/models/Zealot/Walk.SKELETON.xml",
+                "res/models/Zealot/Polearm1.SKELETON.xml",
+                "res/models/Zealot/Idle.SKELETON.xml",
+                "res/models/Zealot/Zealot.MESH.xml",
+                "res/models/Mimic/Mimic.SKELETON.xml",
+                "res/models/Mimic/Run.SKELETON.xml",
+                "res/models/Mimic/Attack1.SKELETON.xml",
+                "res/models/Mimic/Idle.SKELETON.xml",
+                "res/models/Mimic/Mimic.MESH.xml",
+                "res/shaders/blur-fs.txt",
+                "res/shaders/wave-fs.txt",
+                "res/shaders/height2normal-fs.txt",
+                "res/shaders/mirror-vs.txt",
+                "res/shaders/mirror-fs.txt",
+            ];
+
+            TextFileManager.preLoadFiles(files, function() {
+                ui.hideLoadingProgress();
+                onCompleted();
+            }, function(progress) {
+                ui.setLoadingProgress(progress)
+            });
+        }
         initialize();
         return game;
     }
+
+
 );

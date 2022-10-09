@@ -71,6 +71,24 @@ define(
             this.fileMap = {};
         };
 
+        FileManager.prototype.preLoadFiles = function(fileList, onCompleted, onProgress) 
+        {
+            var that = this;
+            var total = fileList.length;
+            var loaded = 0;
+            for (var i = 0; i < total; i++)
+            {
+                this.doLoadFileAsync(fileList[i], function(file, name){
+                    that.fileMap[name] = file;
+                    loaded++;
+                    onProgress(loaded / total);
+                    if (loaded == total) {
+                        onCompleted();
+                    }
+                });
+            }
+        }
+
         return FileManager;
     }
 );

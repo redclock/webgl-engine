@@ -30,6 +30,24 @@ define(
             return file;
         };
 
+        TextFileManager.doLoadFileAsync = function(name, onCompleted)
+        {
+            var xhttp = DomUtils.createXmlHttp();
+            xhttp.open("GET", name, true);
+            xhttp.onload = function() {
+                var file = new FileManager.Item();
+                file.content = xhttp.responseText;
+                onCompleted(file, name);
+            }
+
+            xhttp.onerror = function() {
+                alert("File open error:" + name + "\n" + xhttp.statusText);
+                onCompleted(null, name)
+            }
+
+            xhttp.send();
+        };
+
         // return content, if failed return empty string
         TextFileManager.simpleLoad = function(name)
         {

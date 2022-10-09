@@ -26,6 +26,8 @@ define(
 
         var fpsDiv = document.getElementById("fps");
 
+        var loadingDiv = document.getElementById("loading");
+
         ui.init = function(g)
         {
             game = g;
@@ -133,6 +135,14 @@ define(
                 profileGrid.style.display = "none";
             }
         };
+
+        ui.setLoadingProgress = function(progress) {
+            loadingDiv.innerText = "Loading Resources (" + Math.floor(progress * 100) + ")";
+        }
+
+        ui.hideLoadingProgress = function() {
+            loadingDiv.style.display = "none";
+        }
 
         return ui;
 
