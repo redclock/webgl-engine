@@ -1,10 +1,10 @@
-webgl-engine
+# webgl-engine
 ============
 
 a WebGL engine
 ![Screen1](http://github.com/redclock/webgl-engine/raw/master/screen.png)
 
-###Features:
+### Features:
   * Easy texture and render target
   * Custom shaders with #inlcude support
   * Static & dynamic vertex/index buffers with custom format
@@ -16,6 +16,6 @@ a WebGL engine
   * Physics (with CANNON.js)
   * Water with real reflection
 
-#Demo
+# Demo
 Try the demo:
-http://redclock.github.io/webgl-engine/test.html
+https://redclock.github.io/webgl-engine/test.html
